@@ -11,8 +11,8 @@ const env = loadEnv('production', process.cwd(), '');
 
 // https://astro.build/config
 export default defineConfig({
-  output: 'server',
   integrations: [tailwind(), react(), auth()],
+  output: 'server',
   adapter: vercel(),
   integrations: [auth({
     providers: [GitHub({
