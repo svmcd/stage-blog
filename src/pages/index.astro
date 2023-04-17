@@ -1,12 +1,17 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { SignIn, SignOut } from "auth-astro/components";
+
+import { getSession } from "auth-astro/server";
+
+const session = await getSession(Astro.request);
 ---
 
 <Layout>
-  <main class="bg-red-500">
-    <h1 class="text-red-500">hi</h1>
-    <SignIn provider="github">sign in</SignIn>
+  <main>
+    <h1>hi</h1>
+    <SignIn provider="discord">sign in</SignIn>
     <SignOut>sign out</SignOut>
+    {session ? <p>Welcome {session.user?.name}</p> : <p>Not logged in</p>}
   </main>
 </Layout>
