@@ -3,20 +3,14 @@ import Layout from "../layouts/Layout.astro";
 import { SignIn, SignOut } from "auth-astro/components";
 
 import { getSession } from "auth-astro/server";
-import { getAllPosts } from "../db";
+import { Posts } from "../components/Posts";
 
 const session = await getSession(Astro.request);
-
-const allPosts = await getAllPosts();
-
-const Post = allPosts.map((post) => {
-  return post.title;
-});
 ---
 
 <Layout>
   <main>
-    <h1>{Post}</h1>
+    <Posts />
     <SignIn provider="discord">sign in</SignIn>
     <SignOut>sign out</SignOut>
     {session ? <p>Welcome {session.user?.name}</p> : <p>Not logged in</p>}
