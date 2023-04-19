@@ -11,12 +11,7 @@ const env = loadEnv('production', process.cwd(), '');
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), react(), auth({
-    providers: [Discord({
-      clientId: env.DISCORD_CLIENT_ID,
-      clientSecret: env.DISCORD_CLIENT_SECRET,
-    })]
-  })],
+  integrations: [tailwind(), react()],
   output: 'server',
   adapter: vercel(),
 });
