@@ -1,6 +1,6 @@
 ---
-title: "Week 2 - 20 februari t/m 24 februari"
-description: "Lorem ipsum dolor sit amet"
+title: "Week 2"
+date: "20 februari t/m 24 februari"
 pubDate: "Feb 24 2023"
 heroImage: "/placeholder-hero.jpg"
 ---

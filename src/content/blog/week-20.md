@@ -1,7 +1,7 @@
 ---
-title: "Week 1"
-date: "13 februari t/m 17 februari"
-pubDate: "Feb 17 2023"
+title: "Week 20"
+date: "26 juni t/m 30 juni"
+pubDate: "Jun 30 2023"
 heroImage: "/placeholder-hero.jpg"
 ---
 

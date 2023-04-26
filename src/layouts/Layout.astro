@@ -3,20 +3,17 @@ import type { CollectionEntry } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-
-type Props = CollectionEntry<"blog">["data"];
-
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 ---
 
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <BaseHead title={title} description={description} />
+    <BaseHead title="StageBlog" description="StageBlog" />
   </head>
 
   <body>
     <Header />
-    <main>
+    <main class="max-w-[1200px] flex flex-col m-auto min-h-screen pt-12">
       <slot />
     </main>
     <Footer />

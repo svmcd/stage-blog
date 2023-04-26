@@ -1,5 +1,7 @@
 ---
 import { CollectionEntry, getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import PostsSlider from "../../components/PostsSlider.astro";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
@@ -14,5 +16,15 @@ const post = Astro.props;
 const { Content } = await post.render();
 ---
 
-<h1>{post.data.title}</h1>
-<Content />
+<Layout>
+  <section class="flex flex-col gap-10">
+    <div>
+      <h1 class="text-3xl font-bold">{post.data.title}</h1>
+      <p class="font-medium">{post.data.date}</p>
+    </div>
+    <div class="text-lg max-w-3xl">
+      <Content />
+    </div>
+    <PostsSlider />
+  </section>
+</Layout>

@@ -1,1 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+@layer utilities {
+  .title {
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    box-shadow: 0 0 50px 20px rgba(255, 255, 255, 0.3);
+  }
+
+  .box {
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 75px #d0d0d0, -20px -20px 75px #f0f0f0;
+    transition: 0.25s ease-in;
+  }
+
+  .box:hover {
+    background: #e3e3e3;
+    box-shadow: 20px 20px 75px #cbcbcb, -20px -20px 75px #e8e8e8;
+  }
+
+  .box2 {
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 75px #d0d0d0, -5px -5px 75px #f0f0f0;
+    transition: 0.25s ease-in;
+  }
+
+  .box2:hover {
+    background: #e3e3e3;
+    box-shadow: 5px 5px 75px #cbcbcb, -5px -5px 75px #e8e8e8;
+  }
+}
+
+@layer base {
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: #e0e0e0;
+  }
+
+  section {
+    @apply w-full pb-12;
+  }
+}

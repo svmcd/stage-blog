@@ -1,6 +1,6 @@
 ---
-title: "Week 3 - 27 februari t/m 3 maart"
-description: "Lorem ipsum dolor sit amet"
+title: "Week 3"
+date: "27 februari t/m 3 maart"
 pubDate: "Mar 04 2023"
 heroImage: "/placeholder-hero.jpg"
 ---

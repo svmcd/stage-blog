@@ -1,6 +1,6 @@
 ---
-title: "Week 4 - 6 maart t/m 10 maart"
-description: "Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro."
+title: "Week 4"
+date: "6 maart t/m 10 maart"
 pubDate: "Mar 10 2023"
 heroImage: "/placeholder-hero.jpg"
 ---
