@@ -1,12 +1,16 @@
+---
+import { AccessButton } from "./AccessButton";
+---
+
 <header class="glass fixed w-full">
   <div
-    class="max-w-[1200px] flex m-auto justify-between h-12 items-center border-solid border-b-2 border-white border-opacity-20"
+    class="max-w-[1200px] flex m-auto justify-between h-14 items-center border-solid border-b-2 border-white border-opacity-20"
   >
     <a class="flex gap-1 items-center" href="/">
       <i class="fa-solid fa-pen-nib"></i>
 
       <h1 class="text-lg font-medium">StageBlog</h1>
     </a>
-    <button>Get access</button>
+    <AccessButton client:load />
   </div>
 </header>

@@ -44,6 +44,19 @@
   .ignore-width {
     margin-left: calc(50% - 50vw);
   }
+
+  .cta {
+    @apply bg-stone-100 rounded-full relative px-4 py-2
+    before:w-full before:h-full before:scale-x-[1.05] before:scale-y-[1.1]  before:absolute before:top-[50%] before:left-[50%]
+    before:-z-10 before:translate-x-[-50%] before:translate-y-[-50%] 
+    before:from-indigo-200 before:to-violet-800 before:bg-gradient-to-br
+    before:rounded-full transition-all duration-300;
+    box-shadow: 0 0 20px 5px #6c28d95f;
+  }
+
+  .cta:hover {
+    box-shadow: 0 0 20px 5px #6c28d992;
+  }
 }
 
 @layer base {
@@ -53,6 +66,6 @@
   }
 
   section {
-    @apply w-full pb-12;
+    @apply w-full py-14;
   }
 }
