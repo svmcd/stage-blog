@@ -18,11 +18,13 @@
     background: #e0e0e0;
     box-shadow: 20px 20px 75px #d0d0d0, -20px -20px 75px #f0f0f0;
     transition: 0.25s ease-in;
+    border: 1px solid #d0d0d0;
   }
 
   .box:hover {
     background: #e3e3e3;
     box-shadow: 20px 20px 75px #cbcbcb, -20px -20px 75px #e8e8e8;
+    border: 1px solid #999999;
   }
 
   .box2 {
@@ -30,11 +32,13 @@
     background: #e0e0e0;
     box-shadow: 5px 5px 75px #d0d0d0, -5px -5px 75px #f0f0f0;
     transition: 0.25s ease-in;
+    border: 1px solid #d0d0d0;
   }
 
   .box2:hover {
     background: #e3e3e3;
     box-shadow: 5px 5px 75px #cbcbcb, -5px -5px 75px #e8e8e8;
+    border: 1px solid #999999;
   }
 
   .ignore-width {
