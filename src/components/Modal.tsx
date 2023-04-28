@@ -1,8 +1,22 @@
+import { useState } from "react";
 import { useStore } from "@nanostores/react";
 import { isModalOpen } from "../stores";
+import { secretKey } from "../stores";
+import { authorized } from "../stores";
 
 const Modal = () => {
+  const [input, setInput] = useState("");
   const $isModalOpen = useStore(isModalOpen);
+  const $authorized = useStore(authorized);
+
+  const secretKeyString = secretKey.get();
+
+  const handleSubmit = () => {
+    if (input === secretKeyString) {
+      console.log("authorized");
+      authorized.set(!$authorized);
+    }
+  };
 
   return $isModalOpen ? (
     <div className="fixed z-20 inset-0 glass flex justify-center items-center">
@@ -21,10 +35,19 @@ const Modal = () => {
           <label htmlFor="key">
             Fill in the secret key in order to get access to the blog content
           </label>
-          <input className="input" type="text" id="key" />
+          <input
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+              setInput(e.target.value)
+            }
+            className="input"
+            type="text"
+            id="key"
+          />
         </div>
         <div className="flex gap-4 mt-2">
-          <button className="cta2">Submit</button>
+          <button className="cta2" onClick={handleSubmit}>
+            Submit
+          </button>
           <button
             className="cta3"
             onClick={() => isModalOpen.set(!$isModalOpen)}
