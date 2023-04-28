@@ -6,9 +6,9 @@ const Modal = () => {
 
   return $isModalOpen ? (
     <div className="fixed z-20 inset-0 glass flex justify-center items-center">
-      <div className="box-static relative">
+      <div className="box-static relative max-w-md flex flex-col gap-6">
         <i
-          className="fa-solid fa-xmark absolute top-1 right-1 cursor-pointer"
+          className="fa-solid fa-xmark absolute top-5 text-stone-400 text-xl right-5 cursor-pointer"
           onClick={() => isModalOpen.set(!$isModalOpen)}
         ></i>
         <h1
@@ -17,13 +17,20 @@ const Modal = () => {
         >
           Gain access
         </h1>
-        <div>
-          <p>secret code</p>
-          <input type="text" />
+        <div className="flex flex-col gap-2 ">
+          <label htmlFor="key">
+            Fill in the secret key in order to get access to the blog content
+          </label>
+          <input className="input" type="text" id="key" />
         </div>
-        <div>
-          <button>Submit</button>
-          <button>Cancel</button>
+        <div className="flex gap-4 mt-2">
+          <button className="cta2">Submit</button>
+          <button
+            className="cta3"
+            onClick={() => isModalOpen.set(!$isModalOpen)}
+          >
+            Cancel
+          </button>
         </div>
       </div>
     </div>
