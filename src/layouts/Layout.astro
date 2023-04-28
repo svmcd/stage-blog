@@ -1,26 +1,21 @@
 ---
-export interface Props {
-  title?: string;
-}
-
-const { title } = Astro.props;
+import type { CollectionEntry } from "astro:content";
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 ---
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+    <BaseHead title="StageBlog" description="StageBlog" />
   </head>
+
   <body>
-    <slot />
+    <Header />
+    <main class="max-w-[1200px] flex flex-col m-auto min-h-screen pt-12">
+      <slot />
+    </main>
+    <Footer />
   </body>
 </html>
-
-<style is:global>
-  :root {
-  }
-</style>
