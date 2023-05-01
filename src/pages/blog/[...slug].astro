@@ -2,6 +2,7 @@
 import { CollectionEntry, getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import PostsSlider from "../../components/PostsSlider.astro";
+import BlogContent from "../../components/BlogContent";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
@@ -13,18 +14,16 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<"blog">;
 
 const post = Astro.props;
-const { Content } = await post.render();
 ---
 
 <Layout>
   <section class="flex flex-col gap-10">
-    <div>
-      <h1 class="text-3xl font-bold">{post.data.title}</h1>
-      <p class="font-medium">{post.data.date}</p>
-    </div>
-    <div class="text-lg max-w-3xl">
-      <Content />
-    </div>
+    <BlogContent
+      client:load
+      title={post.data.title}
+      date={post.data.date}
+      body={post.body}
+    />
     <PostsSlider />
   </section>
 </Layout>

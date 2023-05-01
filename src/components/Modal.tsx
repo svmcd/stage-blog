@@ -13,8 +13,11 @@ const Modal = () => {
 
   const handleSubmit = () => {
     if (input === secretKeyString) {
-      console.log("authorized");
       authorized.set(!$authorized);
+      console.log(authorized);
+    } else {
+      authorized.set(false);
+      console.log(authorized);
     }
   };
 
