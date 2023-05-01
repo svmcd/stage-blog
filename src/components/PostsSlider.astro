@@ -5,7 +5,9 @@ const posts = (await getCollection("blog")).sort(
 );
 ---
 
-<section class="flex flex-row overflow-scroll gap-4 w-screen ignore-width">
+<section
+  class="flex flex-row overflow-scroll gap-4 items-start w-screen ignore-width p-0"
+>
   {
     posts.map((post) => (
       <a href={`/blog/${post.slug}/`}>

@@ -1,28 +1,44 @@
+import { authorized } from "../stores";
+import { useStore } from "@nanostores/react";
+import { useEffect } from "react";
+
 const CommentBox = () => {
+  const $authorized = useStore(authorized);
+
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    // handle form submission logic here
+  };
+
+  useEffect(() => {
+    console.log("here", $authorized);
+  }, []);
+
   return (
-    <>
-      <form>
-        <div className="box-static">
-          <div className="px-4 py-2 bg-white rounded-t-lg ">
-            <label htmlFor="comment" className="sr-only">
-              Your comment
-            </label>
-            <textarea
-              id="comment"
-              rows={4}
-              className="w-full px-0 text-sm text-gray-900 bg-white border-0 focus:ring-0 outline-0"
-              placeholder="Write a comment..."
-              required
-            ></textarea>
-          </div>
-          <div className="flex items-center justify-between px-3 py-2 border-t ">
-            <button type="submit" className="cta2 bg-stone-900">
-              Post comment
-            </button>
-          </div>
+    <form onSubmit={handleSubmit}>
+      <div className="box-static max-w-3xl flex flex-col gap-2">
+        <div className="   rounded-lg ">
+          <label htmlFor="comment" className="sr-only">
+            Your comment
+          </label>
+          <textarea
+            id="comment"
+            rows={4}
+            className="w-full bg-stone-200 p-2 border-0 rounded-lg focus:ring-0 outline-0"
+            placeholder="Write a comment..."
+            required
+          ></textarea>
         </div>
-      </form>
-    </>
+        <div>
+          <button
+            type="submit"
+            className="cta2 bg-stone-900 cursor-not-allowed"
+          >
+            Post comment
+          </button>
+        </div>
+      </div>
+    </form>
   );
 };
 

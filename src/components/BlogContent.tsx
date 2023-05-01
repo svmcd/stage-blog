@@ -32,7 +32,7 @@ const BlogContent = ({
       </div>
       <div className="text-lg max-w-3xl relative">
         {isAuthorized === "true" ? null : (
-          <div className="absolute -inset-10 glass rounded-lg" />
+          <div className="absolute inset-0 glass rounded-lg" />
         )}
         {isAuthorized === "true"
           ? body
