@@ -13,7 +13,7 @@
   .box-static {
     @apply p-5;
     border-radius: 10px;
-    background: #e0e0e0;
+    background: #ededed;
     box-shadow: 5px 5px 75px #d0d0d0, -5px -5px 75px #f0f0f0;
     transition: 0.25s ease-in;
     border: 1px solid #d0d0d0;

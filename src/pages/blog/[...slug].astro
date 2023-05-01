@@ -1,6 +1,7 @@
 ---
 import { CollectionEntry, getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
+import CommentBox from "../../components/CommentBox";
 import PostsSlider from "../../components/PostsSlider.astro";
 import BlogContent from "../../components/BlogContent";
 
@@ -24,6 +25,7 @@ const post = Astro.props;
       date={post.data.date}
       body={post.body}
     />
+    <CommentBox />
     <PostsSlider />
   </section>
 </Layout>
