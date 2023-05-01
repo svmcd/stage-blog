@@ -6,6 +6,7 @@ import { authorized } from "../stores";
 
 const Modal = () => {
   const [input, setInput] = useState("");
+  const [inputClass, setInputClass] = useState("input");
   const $isModalOpen = useStore(isModalOpen);
   const $authorized = useStore(authorized);
 
@@ -14,10 +15,10 @@ const Modal = () => {
   const handleSubmit = () => {
     if (input === secretKeyString) {
       authorized.set(!$authorized);
-      console.log(authorized);
+      isModalOpen.set(!$isModalOpen);
     } else {
       authorized.set(false);
-      console.log(authorized);
+      setInputClass("input-danger");
     }
   };
 
@@ -42,7 +43,7 @@ const Modal = () => {
             onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
               setInput(e.target.value)
             }
-            className="input"
+            className={inputClass}
             type="text"
             id="key"
           />

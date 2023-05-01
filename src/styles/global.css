@@ -77,9 +77,6 @@
 
   .input {
     @apply bg-stone-100 rounded-md relative px-4 py-2 text-sm
-    before:w-full before:h-full before:scale-x-[1.02] before:scale-y-[1.05]  before:absolute before:top-[50%] before:left-[50%]
-    before:-z-10 before:translate-x-[-50%] before:translate-y-[-50%] 
-    before:from-indigo-200 before:to-violet-800 before:bg-gradient-to-br
     before:rounded-md transition-all duration-300;
     box-shadow: 0 0 5px 1px #6c28d95f;
   }
@@ -92,7 +89,22 @@
     box-shadow: 0 0 7px 2px #6c28d992;
   }
 
-  .input:focus {
+  .input-danger {
+    @apply bg-stone-100 rounded-md relative px-4 py-2 text-sm
+    before:rounded-md transition-all duration-300;
+    box-shadow: 0 0 5px 1px #ff00005f;
+  }
+
+  .input-danger:hover {
+    box-shadow: 0 0 7px 2px #ff00005f;
+  }
+
+  .input-danger:active {
+    box-shadow: 0 0 7px 2px #ff00005f;
+  }
+
+  .input:focus,
+  .input-danger:focus {
     outline: none;
   }
 }
