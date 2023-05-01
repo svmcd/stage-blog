@@ -5,4 +5,4 @@ export const isModalOpen = atom(false);
 
 export const secretKey = atom("poop");
 
-export const authorized = persistentAtom(false);
+export const authorized = persistentAtom("false");

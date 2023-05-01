@@ -14,10 +14,10 @@ const Modal = () => {
 
   const handleSubmit = () => {
     if (input === secretKeyString) {
-      authorized.set(!$authorized);
+      authorized.set("true");
       isModalOpen.set(!$isModalOpen);
     } else {
-      authorized.set(false);
+      authorized.set("false");
       setInputClass("input-danger");
     }
   };

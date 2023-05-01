@@ -7,7 +7,7 @@ export const AccessButton = () => {
   const $isModalOpen = useStore(isModalOpen);
   const $authorized = useStore(authorized);
 
-  return $authorized ? null : (
+  return $authorized === "true" ? null : (
     <>
       {
         <button onClick={() => isModalOpen.set(!$isModalOpen)} className="cta">
