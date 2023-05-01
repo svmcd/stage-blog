@@ -5,9 +5,9 @@ pubDate: "Feb 24 2023"
 heroImage: "/placeholder-hero.jpg"
 ---
 
-In mijn tweede week bij INFO ben ik begonnen met het volgen van cursussen over de technologieën die door de developers van het bedrijf worden gebruikt. Ik heb de Typescript cursus gevolgd en geleerd hoe ik een repository kan aanmaken voor de onboarding opdracht die mij was gegeven. Voor deze opdracht werd de t3-stack gebruikt, bestaande uit Typescript, Next.js, Prisma, trpc, NextAuth en Tailwind. Deze stack biedt verschillende tools en frameworks om snel en efficiënt applicaties te ontwikkelen.
+In mijn tweede week bij INFO ben ik begonnen met het volgen van cursussen over de technologieën die door de developers van het bedrijf worden gebruikt. Ik heb de Typescript cursus gevolgd en een repository aangemaakt voor de onboarding opdracht die mij was gegeven. Voor deze opdracht werd de t3-stack gebruikt, bestaande uit Typescript, Next.js, Prisma, trpc, NextAuth en Tailwind. Deze stack biedt verschillende tools en frameworks om snel en efficiënt applicaties te ontwikkelen.
 
-De onboarding opdracht bestond uit het gebruik van de Marvel API, waarbij ik een Marvel personage kon opzoeken door de naam van het karakter in te typen in de frontend. Vervolgens werd de informatie van het personage opgehaald vanuit de API en weergegeven op de website. Het was een uitdagende opdracht, maar met de kennis die ik had opgedaan in de cursussen kon ik de opdracht succesvol afronden.
+De onboarding opdracht bestond uit het gebruik van de Marvel API, waarbij je een Marvel personage kon opzoeken door de naam van het karakter in te typen in de frontend. Vervolgens werd de informatie van het personage opgehaald vanuit de API en weergegeven op de website. Het was een uitdagende opdracht, maar met de kennis die ik had opgedaan in de cursussen kon ik de opdracht succesvol afronden.
 
 Naast de Typescript cursus heb ik ook de React Query cursus gevolgd, waarbij ik een introductie kreeg in het schrijven van unit tests met Vitest. Dit was erg interessant en nuttig om meer te leren over het testen van code.
 
