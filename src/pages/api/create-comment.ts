@@ -12,6 +12,7 @@ export const post: APIRoute = async ({ request }) => {
     data: {
       postId: postId as string,
       content: comment as string,
+      createdAt: new Date(),
     },
   });
 
