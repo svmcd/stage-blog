@@ -1,14 +1,26 @@
 import { authorized } from "../stores";
 import { useStore } from "@nanostores/react";
 import { useRef } from "react";
-import createComment from "../server/api/create-comment";
 
-const CommentBox = ({ slug }) => {
+const CommentBox = ({ slug }: any) => {
   const $authorized = useStore(authorized);
   const formRef = useRef<HTMLFormElement>(null);
 
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (e.currentTarget) {
+      const formData = new FormData(e.currentTarget as HTMLFormElement);
+      const comment = formData.get("content") ?? "";
+      const data = { comment, slug };
+      await fetch("/api/create-comment", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+      formRef.current?.reset();
+    }
   };
 
   return (
