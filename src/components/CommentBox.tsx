@@ -2,6 +2,12 @@ import { authorized } from "../stores";
 import { useStore } from "@nanostores/react";
 import { useRef, useState, useEffect } from "react";
 
+// TODO
+// loading states for commenting
+// style comments
+// authenticate in order to comment
+// refactor code
+
 interface Comment {
   id: string;
   author: string;
@@ -48,7 +54,6 @@ const CommentBox = ({ slug }: any) => {
           <div key={comment.id}>
             <p>{comment.author} said:</p>
             <p>{comment.content}</p>
-            <hr />
           </div>
         ))}
         <div className="box-static max-w-3xl flex flex-col gap-2">

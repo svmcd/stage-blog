@@ -24,7 +24,7 @@ const BlogContent = ({
   }, [$authorized]);
 
   return (
-    <>
+    <div className="flex flex-col gap-10">
       <div>
         <h1 className="text-3xl font-bold">{title}</h1>
         <p className="font-medium">{date}</p>
@@ -87,7 +87,7 @@ const BlogContent = ({
           </p>
         )}
       </div>
-    </>
+    </div>
   );
 };
 
