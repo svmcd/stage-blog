@@ -2,10 +2,17 @@ import { authorized } from "../stores";
 import { useStore } from "@nanostores/react";
 import { useRef, useState, useEffect } from "react";
 
+interface Comment {
+  id: string;
+  author: string;
+  content: string;
+  createdAt: string;
+}
+
 const CommentBox = ({ slug }: any) => {
   const $authorized = useStore(authorized);
   const formRef = useRef<HTMLFormElement>(null);
-  const [comments, setComments] = useState([]);
+  const [comments, setComments] = useState<Comment[]>([]);
 
   useEffect(() => {
     const fetchComments = async () => {
