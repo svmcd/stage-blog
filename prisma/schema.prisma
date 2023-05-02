@@ -12,6 +12,7 @@ datasource db {
 
 model Comment {
   id String @id @default(auto()) @map("_id") @db.ObjectId
+  author String
   content String  
   postId String
   createdAt DateTime @default(now())
