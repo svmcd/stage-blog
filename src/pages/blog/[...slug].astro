@@ -4,6 +4,8 @@ import Layout from "../../layouts/Layout.astro";
 import CommentBox from "../../components/CommentBox";
 import PostsSlider from "../../components/PostsSlider.astro";
 import BlogContent from "../../components/BlogContent";
+import CommentsWrapper from "../../components/CommentsWrapper";
+import { getCommentsForBlog } from "../../../src/pages/api/get-comments";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
@@ -12,13 +14,16 @@ export async function getStaticPaths() {
     props: post,
   }));
 }
+
 type Props = CollectionEntry<"blog">;
 
 const post = Astro.props;
+const comments = await getCommentsForBlog(post.slug);
 ---
 
 <Layout>
-  <section class="flex flex-col gap-10">
+  <section class="flex flex-col max-w-4xl gap-10">
+    <p>{comments}</p>
     <BlogContent
       client:load
       title={post.data.title}
@@ -26,6 +31,7 @@ const post = Astro.props;
       body={post.body}
     />
     <CommentBox client:load slug={post.slug} />
+    <CommentsWrapper client:load slug={post.slug} comments={comments} />
     <PostsSlider />
   </section>
 </Layout>

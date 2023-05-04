@@ -4,30 +4,11 @@ import { useRef, useState, useEffect } from "react";
 
 // TODO
 // loading states for commenting
-// style comments
 // authenticate in order to comment
-// refactor code
-
-interface Comment {
-  id: string;
-  author: string;
-  content: string;
-  createdAt: string;
-}
 
 const CommentBox = ({ slug }: any) => {
   const $authorized = useStore(authorized);
   const formRef = useRef<HTMLFormElement>(null);
-  const [comments, setComments] = useState<Comment[]>([]);
-
-  useEffect(() => {
-    const fetchComments = async () => {
-      const response = await fetch(`/api/get-comments?postId=${slug}`);
-      const data = await response.json();
-      setComments(data);
-    };
-    fetchComments();
-  }, [slug]);
 
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -50,13 +31,7 @@ const CommentBox = ({ slug }: any) => {
   return (
     <>
       <form onSubmit={onSubmit} ref={formRef}>
-        {comments.map((comment) => (
-          <div key={comment.id}>
-            <p>{comment.author} said:</p>
-            <p>{comment.content}</p>
-          </div>
-        ))}
-        <div className="box-static max-w-3xl flex flex-col gap-2">
+        <div className="box-static flex flex-col gap-2">
           <div className="rounded-lg flex flex-col gap-2">
             <label htmlFor="author" className="sr-only">
               Author
