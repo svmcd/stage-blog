@@ -64,8 +64,12 @@ const CommentBox = ({ slug }: any) => {
             ></textarea>
           </div>
           <div>
-            <button type="submit" className="cta2 bg-stone-900">
-              {isSubmitting ? "Posting..." : "Post comment"}
+            <button
+              type="submit"
+              className="cta2 bg-stone-900"
+              disabled={isSubmitting ? true : false}
+            >
+              {isSubmitting ? "Loading..." : "Add comment"}
             </button>
           </div>
         </div>

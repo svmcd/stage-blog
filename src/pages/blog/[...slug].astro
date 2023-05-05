@@ -24,15 +24,17 @@ const comments = await getCommentsForPost(post.slug);
 ---
 
 <Layout>
-  <section class="flex flex-col max-w-4xl gap-10">
-    <BlogContent
-      client:load
-      title={post?.data.title}
-      date={post?.data.date}
-      body={post?.body}
-    />
-    <CommentBox client:load slug={post.slug} />
-    <CommentsWrapper client:load slug={post.slug} comments={comments} />
+  <section class="flex flex-col gap-10">
+    <div class="flex flex-col gap-10 max-w-4xl">
+      <BlogContent
+        client:load
+        title={post?.data.title}
+        date={post?.data.date}
+        body={post?.body}
+      />
+      <CommentBox client:load slug={post.slug} />
+      <CommentsWrapper client:load slug={post.slug} comments={comments} />
+    </div>
     <PostsSlider />
   </section>
 </Layout>

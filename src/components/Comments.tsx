@@ -20,28 +20,38 @@ const Comments = ({ slug, comments }: any) => {
 
   return (
     <>
-      <div className="flex flex-col gap-2">
-        {comments.map((comment: Comment) => (
-          <div
-            key={comment.id}
-            className="relative box-static flex gap-2 flex-col"
-          >
-            <div className="flex gap-2">
-              <p className="font-medium">{comment.author}</p>
-              <p className="opacity-50">{formattedDate(comment.createdAt)}</p>
+      <div className="flex flex-col gap-4 max-h-[50vh] relative overflow-scroll shadow-inner box-static">
+        {$authorized === "true" ? null : (
+          <>
+            <div className="absolute inset-0 glass rounded-lg z-10"></div>
+          </>
+        )}
+        {comments.length === 0 ? (
+          <p className="text-center z-20">
+            There are currently no comments on this post
+          </p>
+        ) : (
+          comments.map((comment: Comment) => (
+            <div key={comment.id} className="gap-4 flex flex-col">
+              <div>
+                <div className="flex gap-2">
+                  <p className="font-medium">{comment.author}</p>
+                  <p className="opacity-50">
+                    {formattedDate(comment.createdAt)}
+                  </p>
+                </div>
+                {$authorized === "true" ? (
+                  <p>{comment.content}</p>
+                ) : (
+                  <>
+                    <p>Are you trying to bypass the paywall?</p>
+                  </>
+                )}
+              </div>
+              <hr className="border-stone-300" />
             </div>
-            <div className="">
-              {$authorized === "true" ? (
-                <p>{comment.content}</p>
-              ) : (
-                <>
-                  <div className="absolute inset-0 glass rounded-lg"></div>
-                  <p>Are you trying to bypass the paywall?</p>
-                </>
-              )}
-            </div>
-          </div>
-        ))}
+          ))
+        )}
       </div>
     </>
   );

@@ -23,7 +23,7 @@ const Modal = () => {
   };
 
   return $isModalOpen ? (
-    <div className="fixed z-20 inset-0 glass flex justify-center items-center">
+    <div className="fixed z-40 inset-0 glass flex justify-center items-center">
       <div className="box-static relative max-w-md flex flex-col gap-6">
         <i
           className="fa-solid fa-xmark absolute top-5 text-stone-400 text-xl right-5 cursor-pointer"
