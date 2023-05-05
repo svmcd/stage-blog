@@ -15,8 +15,6 @@ const Comments = ({ slug, comments }: any) => {
     return formatDistance(date, new Date(), { addSuffix: true });
   };
 
-  console.log("HEREE", comments);
-
   return (
     <>
       <div className="flex flex-col gap-2">

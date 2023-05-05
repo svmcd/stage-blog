@@ -5,7 +5,7 @@ import CommentBox from "../../components/CommentBox";
 import PostsSlider from "../../components/PostsSlider.astro";
 import BlogContent from "../../components/BlogContent";
 import CommentsWrapper from "../../components/CommentsWrapper";
-import { getCommentsForBlog } from "../../../src/pages/api/get-comments";
+import { getCommentsForPost } from "../../../src/pages/api/get-comments";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
@@ -18,7 +18,7 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<"blog">;
 
 const post = Astro.props;
-const comments = await getCommentsForBlog(post.slug);
+const comments = await getCommentsForPost(post.slug);
 ---
 
 <Layout>
