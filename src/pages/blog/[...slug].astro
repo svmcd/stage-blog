@@ -25,9 +25,9 @@ const comments = await getCommentsForPost(post.slug);
   <section class="flex flex-col max-w-4xl gap-10">
     <BlogContent
       client:load
-      title={post.data.title}
-      date={post.data.date}
-      body={post.body}
+      title={post?.data?.title}
+      date={post?.data?.date}
+      body={post?.body}
     />
     <CommentBox client:load slug={post.slug} />
     <CommentsWrapper client:load slug={post.slug} comments={comments} />
