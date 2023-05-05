@@ -7,6 +7,8 @@ import BlogContent from "../../components/BlogContent";
 import CommentsWrapper from "../../components/CommentsWrapper";
 import { getCommentsForPost } from "../../../src/pages/api/get-comments";
 
+export const prerender = true;
+
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
   return posts.map((post) => ({
@@ -25,8 +27,8 @@ const comments = await getCommentsForPost(post.slug);
   <section class="flex flex-col max-w-4xl gap-10">
     <BlogContent
       client:load
-      title={post?.data?.title}
-      date={post?.data?.date}
+      title={post?.data.title}
+      date={post?.data.date}
       body={post?.body}
     />
     <CommentBox client:load slug={post.slug} />
