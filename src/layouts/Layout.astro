@@ -1,7 +1,7 @@
 ---
-import type { CollectionEntry } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
+import Modal from "../components/Modal";
 import Footer from "../components/Footer.astro";
 ---
 
@@ -10,10 +10,12 @@ import Footer from "../components/Footer.astro";
   <head>
     <BaseHead title="StageBlog" description="StageBlog" />
   </head>
-
   <body>
     <Header />
-    <main class="max-w-[1200px] flex flex-col m-auto min-h-screen pt-12">
+    <Modal client:load />
+    <main
+      class="max-w-[1200px] flex flex-col relative m-auto min-h-screen pt-12"
+    >
       <slot />
     </main>
     <Footer />
