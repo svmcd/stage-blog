@@ -29,7 +29,7 @@ const BlogContent = ({
         <h1 className="text-3xl font-bold">{title}</h1>
         <p className="font-medium">{date}</p>
       </div>
-      <div className="text-lg relative">
+      <div className="text-lg relative box-static">
         {isAuthorized === "true" ? null : (
           <div className="absolute inset-0 glass rounded-lg"></div>
         )}

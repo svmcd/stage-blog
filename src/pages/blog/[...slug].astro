@@ -23,7 +23,6 @@ const comments = await getCommentsForPost(post.slug);
 
 <Layout>
   <section class="flex flex-col max-w-4xl gap-10">
-    <p>{comments}</p>
     <BlogContent
       client:load
       title={post.data.title}
