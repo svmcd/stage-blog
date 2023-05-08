@@ -1,20 +1,19 @@
 describe('browser actions', () => {
+  beforeEach(() => {
+    cy.visit('https://stage-blog-git-dev-svmcd.vercel.app/')
+  })
+
   it('should visit the correct site', () => {
-    cy.visit('https://stage-blog-git-dev-svmcd.vercel.app/', { timeout: 5000 })
     cy.url().should('include', 'stage-blog')
   })
 
   it('should click on week 2, and read Lorem ipsum (paywall dummy text)', () => {
-    cy.visit('https://stage-blog-git-dev-svmcd.vercel.app/')
     cy.get('h1').contains('Week 2').click()
     cy.get('p').contains('Lorem ipsum')
   })
 
   it('should display the correct number of posts', () => {
-    cy.visit('https://stage-blog-git-dev-svmcd.vercel.app/')
     cy.get('a[href*="blog/week"]').its('length').should('eq', 21);
-
-
   })
 })
 
