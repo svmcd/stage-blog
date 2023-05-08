@@ -112,7 +112,6 @@
   body {
     font-family: "Roboto", sans-serif;
     background-color: #e0e0e0;
-    @apply px-4 lg:p-0;
   }
 
   section {
