@@ -13,9 +13,10 @@ describe('browser actions', () => {
   })
 
   it('gain access to the blog content by entering the secret key', () => {
+    cy.log("here", Cypress.env('host'))
     cy.get('h1').contains('Week 2').click()
     cy.wait(500).get('button').contains('Gain').click();
-    cy.get('input[id*="key"]').type('123', { delay: 50 }).wait(500)
+    cy.get('input[id*="key"]').type('hi', { delay: 50 }).wait(500)
     cy.get('button').contains('Submit').click().wait(500)
     cy.get('div').contains('tweede week')
   })
