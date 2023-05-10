@@ -3,6 +3,8 @@ import { persistentAtom } from "@nanostores/persistent";
 
 export const isModalOpen = atom(false);
 
-export const secretKey = atom("123");
+const key = import.meta.env.PUBLIC_KEY;
+
+export const secretKey = atom(key);
 
 export const authorized = persistentAtom("false");
