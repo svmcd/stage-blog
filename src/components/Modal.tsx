@@ -44,7 +44,7 @@ const Modal = () => {
               setInput(e.target.value)
             }
             className={inputClass}
-            type="text"
+            type="password"
             id="key"
           />
         </div>
