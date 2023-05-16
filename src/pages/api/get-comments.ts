@@ -1,6 +1,4 @@
-import { PrismaClient } from "@prisma/client";
-
-const prisma = new PrismaClient();
+import { prisma } from "../../server/prisma-client";
 
 export const getCommentsForPost = async (postId: string | null) => {
   const comments = await prisma.comment.findMany({
