@@ -47,7 +47,7 @@ const CommentBox = ({ slug }: any) => {
             <input
               type="text"
               name="author"
-              className="w-full bg-stone-200 p-2 border-0 rounded-lg focus:ring-0 outline-0"
+              className="w-full bg-stone-100 p-2 border-0 rounded-lg focus:ring-0 outline-0"
               placeholder="Author"
               required
             />
@@ -58,7 +58,7 @@ const CommentBox = ({ slug }: any) => {
               id="comment"
               name="content"
               rows={4}
-              className="w-full bg-stone-200 p-2 border-0 rounded-lg focus:ring-0 outline-0"
+              className="w-full bg-stone-100 p-2 border-0 rounded-lg focus:ring-0 outline-0"
               placeholder="Write a comment..."
               required
             ></textarea>

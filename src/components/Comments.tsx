@@ -20,7 +20,7 @@ const Comments = ({ slug, comments }: any) => {
 
   return (
     <>
-      <div className="flex flex-col gap-4 max-h-[50vh] relative overflow-scroll shadow-inner box-static">
+      <div className="flex flex-col gap-4 max-h-[50vh] relative overflow-scroll box-static">
         {$authorized === "true" ? null : (
           <>
             <div className="absolute inset-0 glass rounded-lg z-10"></div>
