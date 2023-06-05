@@ -5,7 +5,9 @@ pubDate: "Feb 17 2023"
 heroImage: "/placeholder-hero.jpg"
 ---
 
-In mijn eerste week van mijn stage bij INFO heb ik kennis gemaakt met mijn stagebegeleider en het team. We hebben samen geluncht en ik heb een rondleiding gekregen door het gebouw. Ook heb ik accounts aangemaakt voor het bedrijf en de benodigde programmas en applicaties gedownload. Tijdens de onboarding kreeg ik dagelijkse standups gepland en werd ik toegevoegd aan de teamkanalen.
+In mijn eerste week van mijn stage bij INFO heb ik kennis gemaakt met mijn stagebegeleider en het team. We hebben samen geluncht en ik heb een rondleiding gekregen door het gebouw. Ook heb ik accounts aangemaakt voor het bedrijf en de benodigde programmas en applicaties gedownload. Tijdens de onboarding kreeg ik dagelijkse
+
+standups gepland en werd ik toegevoegd aan de teamkanalen.
 
 Om mezelf verder te ontwikkelen kreeg ik een aantal cursussen aanbevolen over de tech stack die door de developers bij INFO wordt gebruikt. Ook kreeg ik toegang tot het Udemy account van het bedrijf. Hierdoor heb ik direct de mogelijkheid om meer te leren over de technologie die hier wordt gebruikt.
 
