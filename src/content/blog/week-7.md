@@ -5,10 +5,16 @@ pubDate: "Mar 31 2023"
 heroImage: "/placeholder-hero.jpg"
 ---
 
-In mijn eerste week van mijn stage bij INFO heb ik kennis gemaakt met mijn stagebegeleider en het team. We hebben samen geluncht en ik heb een rondleiding gekregen door het gebouw. Ook heb ik accounts aangemaakt voor het bedrijf en de benodigde programmas en applicaties gedownload. Tijdens de onboarding kreeg ik dagelijkse standups gepland en werd ik toegevoegd aan de teamkanalen.
+Ik begon de week met het onderzoeken van de beste aanpak voor het beveiligen van de pagina's. In eerste instantie overwoog ik om voor elke pagina gebruik te maken van de getServerSideProps-functie om te controleren of de gebruiker was ingelogd. Na verloop van tijd besefte ik echter dat ik veel code aan het herhalen was en dat er waarschijnlijk een efficiëntere manier was. Ik las over een middleware-bestand waarin je een functie kon schrijven en een lijst kon bijhouden van pagina's die geen authenticatie vereisen. Dit bleek veel efficiënter te zijn en resulteerde in veel minder code. Lokaal werkte alles naar behoren en mijn pull request voor de beveiligde pagina's werd goedgekeurd en samengevoegd met de hoofdbranch. De hoofdbranch wordt automatisch gedeployed op Vercel.
 
-Om mezelf verder te ontwikkelen kreeg ik een aantal cursussen aanbevolen over de tech stack die door de developers bij INFO wordt gebruikt. Ook kreeg ik toegang tot het Udemy account van het bedrijf. Hierdoor heb ik direct de mogelijkheid om meer te leren over de technologie die hier wordt gebruikt.
+&nbsp;
 
-Als onderdeel van de onboarding heb ik een opdracht gekregen. Dit gaf mij de kans om te laten zien wat ik kan en om mezelf verder te ontwikkelen. Daarnaast heb ik deelgenomen aan een maandelijkse developers workshop/talk meeting waarin we de kans kregen om nieuwe technologieën aan te bevelen en onze kennis te delen.
+Echter, toen we de productieversie testten, ontstonden er plotseling fouten. Om onbekende redenen werden er errors weergegeven, dus uiteindelijk hebben we besloten om de authenticatie tijdelijk uit te schakelen. We zijn van plan om dit probleem later op te lossen.
 
-Al met al was het een productieve eerste week waarin ik de kans heb gekregen om het bedrijf te leren kennen en mezelf verder te ontwikkelen. Ik kijk uit naar de rest van mijn stageperiode bij INFO en wat ik hier allemaal kan leren.
+&nbsp;
+
+Tegelijkertijd was ik ook bezig met een andere branch genaamd "UI and UX changes". Hierin voerde ik kleine aanpassingen door, zoals het toevoegen van laadanimaties, het implementeren van hover-effecten, het zorgen voor responsiveness en het oplossen van bugs. Voordat mijn pull request werd goedgekeurd en samengevoegd met de hoofdbranch, kreeg ik nog enkele feedbackpunten die ik meteen heb verwerkt.
+
+&nbsp;
+
+Het was een uitdagende week waarin ik meerdere taken tegelijkertijd heb afgerond. Het gebruik van middleware heeft de codebase vereenvoudigd en de UI/UX-aanpassingen hebben de gebruikerservaring verbeterd. Hoewel we wat problemen ondervonden in de productieversie, ben ik ervan overtuigd dat we hier een oplossing voor zullen vinden.

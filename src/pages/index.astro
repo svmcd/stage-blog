@@ -4,6 +4,8 @@ import { getCollection } from "astro:content";
 const posts = (await getCollection("blog")).sort(
   (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
 );
+
+const nonDraftPosts = posts.filter((post) => !post.data.draft);
 ---
 
 <Layout>
@@ -38,7 +40,7 @@ const posts = (await getCollection("blog")).sort(
     class="grid grid-cols-1 gap-4 lg:gap-10 md:grid-cols-2 lg:grid-cols-3"
   >
     {
-      posts.map((post) => (
+      nonDraftPosts.map((post) => (
         <a href={`/blog/${post.slug}/`}>
           <div class="box h-44 flex flex-col justify-between">
             <div>

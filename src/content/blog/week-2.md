@@ -5,12 +5,24 @@ pubDate: "Feb 24 2023"
 heroImage: "/placeholder-hero.jpg"
 ---
 
-In mijn tweede week bij INFO ben ik begonnen met het volgen van cursussen over de technologieën die door de developers van het bedrijf worden gebruikt. Ik heb de Typescript cursus gevolgd en een repository aangemaakt voor de onboarding opdracht die mij was gegeven. Voor deze opdracht werd de t3-stack gebruikt, bestaande uit Typescript, Next.js, Prisma, trpc, NextAuth en Tailwind. Deze stack biedt verschillende tools en frameworks om snel en efficiënt applicaties te ontwikkelen.
+Om mijn kennis van Typescript te vergroten, heb ik een cursus gevolgd. Het gaf me een dieper inzicht in de mogelijkheden en het gebruik van Typescript in webontwikkeling. Ik kon direct de opgedane kennis toepassen in mijn stageproject.
 
-De onboarding opdracht bestond uit het gebruik van de Marvel API, waarbij je een Marvel personage kon opzoeken door de naam van het karakter in te typen in de frontend. Vervolgens werd de informatie van het personage opgehaald vanuit de API en weergegeven op de website. Het was een uitdagende opdracht, maar met de kennis die ik had opgedaan in de cursussen kon ik de opdracht succesvol afronden.
+&nbsp;
 
-Naast de Typescript cursus heb ik ook de React Query cursus gevolgd, waarbij ik een introductie kreeg in het schrijven van unit tests met Vitest. Dit was erg interessant en nuttig om meer te leren over het testen van code.
+Voor de onboarding opdracht heb ik een repository aangemaakt. Deze opdracht vereiste het gebruik van de T3-stack, wat staat voor Typescript, Next.js, Prisma, TRPC, NextAuth en Tailwind. Het was interessant om te werken met deze technologieën en te ontdekken hoe ze naadloos samenwerken.
 
-Op de hackday heb ik de kans gekregen om meer te leren over AI cloud services. Dit was een evenement waarbij INFO en Lifely, een ander bedrijf waar INFO vaak mee samenwerkt, bij elkaar kwamen. We hebben onderzoek gedaan naar verschillende AI cloud services en daarna samen geluncht. Het was een gezellige dag en ik heb veel geleerd over de mogelijkheden van AI in de cloud.
+&nbsp;
 
-Al met al was het een productieve week waarin ik veel heb geleerd over de technologieën die worden gebruikt bij INFO. Ik kijk uit naar de volgende week waarin ik meer uitdagende opdrachten zal krijgen en mijn kennis verder zal uitbreiden.
+Een spannend onderdeel van de opdracht was het gebruik van de Marvel API. In de frontend moest ik een naam van een Marvel-personage invoeren, waarna de API gegevens uit de Marvel-database ophaalde en deze in de frontend weergaf. Het was geweldig om te zien hoe ik externe gegevens kon integreren en visualiseren in mijn project.
+
+&nbsp;
+
+Naast de opdracht heb ik ook een cursus gevolgd over React Query. Hier leerde ik hoe ik op een efficiënte manier query's en mutaties kon uitvoeren in React-applicaties. Het was een waardevolle toevoeging aan mijn toolkit als ontwikkelaar.
+
+&nbsp;
+
+Een ander hoogtepunt van de week was de hackday op het kantoor van Lifely. Lifely is een bedrijf waarmee INFO (het bedrijf waar ik stage loop) vaak samenwerkt. Het was een geweldige gelegenheid om te netwerken en samen te werken met professionals van beide bedrijven. Tijdens de hackday hebben we ons gericht op onderzoek naar AI-cloudservices. We hebben nieuwe inzichten opgedaan en interessante discussies gevoerd. Het was ook een geweldige gelegenheid om te genieten van een gezamenlijke lunch en de banden tussen de teams te versterken.
+
+&nbsp;
+
+Ik ben erg dankbaar voor alle mogelijkheden tot leren en samenwerken die ik deze week heb gehad. Het heeft me geholpen om mijn vaardigheden verder te ontwikkelen en mijn horizon te verbreden. Ik kijk uit naar de komende weken, waarin ik nieuwe uitdagingen zal aangaan en blijf groeien als software developer.

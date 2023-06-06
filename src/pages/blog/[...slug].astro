@@ -20,6 +20,7 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<"blog">;
 
 const post = Astro.props;
+const { Content } = await post.render();
 const comments = await getCommentsForPost(post.slug);
 ---
 
@@ -31,7 +32,9 @@ const comments = await getCommentsForPost(post.slug);
         title={post?.data.title}
         date={post?.data.date}
         body={post?.body}
-      />
+      >
+        <Content />
+      </BlogContent>
       <CommentBox client:load slug={post.slug} />
       <CommentsWrapper client:load slug={post.slug} comments={comments} />
     </div>

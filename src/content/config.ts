@@ -1,3 +1,4 @@
+import { boolean } from "astro/zod";
 import { defineCollection, z } from "astro:content";
 
 const blog = defineCollection({
@@ -5,6 +6,7 @@ const blog = defineCollection({
   schema: z.object({
     title: z.string(),
     date: z.string(),
+    draft: z.boolean().optional(),
     // Transform string to Date object
     pubDate: z
       .string()

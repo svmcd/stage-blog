@@ -5,10 +5,20 @@ pubDate: "Apr 14 2023"
 heroImage: "/placeholder-hero.jpg"
 ---
 
-In mijn eerste week van mijn stage bij INFO heb ik kennis gemaakt met mijn stagebegeleider en het team. We hebben samen geluncht en ik heb een rondleiding gekregen door het gebouw. Ook heb ik accounts aangemaakt voor het bedrijf en de benodigde programmas en applicaties gedownload. Tijdens de onboarding kreeg ik dagelijkse standups gepland en werd ik toegevoegd aan de teamkanalen.
+Tijdens een van onze dagelijkse stand-ups vertelde mijn stagebegeleider dat hij al aan het verkennen was welk project ik binnenkort kan gaan onboarden. Aangezien de deadline van het project waaraan ik momenteel werk volgende week nadert, zal dit hoogstwaarschijnlijk mijn laatste taak voor dit project zijn. Ik heb me volledig gericht op het voltooien van de functionaliteit om blokken te wisselen. Het was een uitdagende taak, maar met doorzettingsvermogen en de ondersteuning van mijn team kon ik het tot een succesvol einde brengen.
 
-Om mezelf verder te ontwikkelen kreeg ik een aantal cursussen aanbevolen over de tech stack die door de developers bij INFO wordt gebruikt. Ook kreeg ik toegang tot het Udemy account van het bedrijf. Hierdoor heb ik direct de mogelijkheid om meer te leren over de technologie die hier wordt gebruikt.
+&nbsp;
 
-Als onderdeel van de onboarding heb ik een opdracht gekregen. Dit gaf mij de kans om te laten zien wat ik kan en om mezelf verder te ontwikkelen. Daarnaast heb ik deelgenomen aan een maandelijkse developers workshop/talk meeting waarin we de kans kregen om nieuwe technologieën aan te bevelen en onze kennis te delen.
+Naast het STRCTRL-project heb ik ook tijd besteed aan het werken aan mijn portfolio en blog-website. Mijn stagebegeleider raadde me aan om een Astro-cursus te volgen, en dat heb ik gedaan. Astro is een geweldige tool voor het bouwen van statische websites, en ik ben enthousiast om het te gebruiken voor mijn blog-website.
 
-Al met al was het een productieve eerste week waarin ik de kans heb gekregen om het bedrijf te leren kennen en mezelf verder te ontwikkelen. Ik kijk uit naar de rest van mijn stageperiode bij INFO en wat ik hier allemaal kan leren.
+&nbsp;
+
+Voor mijn portfolio heb ik de opzet gemaakt met behulp van de t3-stack, die ik ook voor het STRCTRL-project gebruik. Ik heb gebrainstormd en onderzocht naar verschillende ontwerpideeën. Uiteindelijk heb ik besloten om gegevens uit een database te halen, zodat ik meer ervaring kan opdoen met de backend. De gegevens die ik uit de database wil halen, zijn mijn projecten. Daarnaast wil ik een geheime loginpagina maken waar alleen ik toegang toe heb. Ik zal AuthJS gebruiken om alleen met mijn e-mailadres in te kunnen loggen. Ook ben ik van plan om een admin-paneel te maken waarin ik mijn projecten kan beheren. Voor de database maak ik gebruik van MongoDB met Prisma. Voor hosting heb ik gekozen voor Vercel omdat ik het erg handig vind dat na elke commit de branch automatisch wordt gedeployed. Voor styling maak ik gebruik van Tailwind CSS en voor typeveiligheid gebruik ik TypeScript.
+
+&nbsp;
+
+Het blog-project is wat eenvoudiger. Hiervoor gebruik ik Astro in combinatie met React en Tailwind CSS. Ik ben enthousiast om met deze technologieën aan de slag te gaan en mijn blog-website vorm te geven.
+
+&nbsp;
+
+Al met al was het een veelzijdige week waarin ik zowel aan het STRCTRL-project als aan mijn persoonlijke projecten werkte. Ik kijk uit naar de komende week, waarin ik mijn huidige project zal afronden en me zal voorbereiden op mijn volgende uitdaging.

@@ -5,10 +5,16 @@ pubDate: "May 5 2023"
 heroImage: "/placeholder-hero.jpg"
 ---
 
-In mijn eerste week van mijn stage bij INFO heb ik kennis gemaakt met mijn stagebegeleider en het team. We hebben samen geluncht en ik heb een rondleiding gekregen door het gebouw. Ook heb ik accounts aangemaakt voor het bedrijf en de benodigde programmas en applicaties gedownload. Tijdens de onboarding kreeg ik dagelijkse standups gepland en werd ik toegevoegd aan de teamkanalen.
+Deze week stond voornamelijk in het teken van mijn stageblog. Ik had ervoor gezorgd dat bezoekers nu op mijn stageblog kunnen reageren door middel van het plaatsen van opmerkingen. Als eerste heb ik het autorisatiesysteem geoptimaliseerd. Vervolgens heb ik een comment-component gemaakt en vormgegeven. Voor de database heb ik gekozen voor MongoDB, omdat ik daar al ervaring mee heb dankzij enkele cursussen en er bekend mee ben. Ik heb Prisma geïnstalleerd en een comment-model aangemaakt. Na veel experimenteren met de code is het me gelukt om de comment-functionaliteit werkend te krijgen. Ik heb ook een component gemaakt dat de opmerkingen uit de database haalt en deze in de frontend weergeeft.
 
-Om mezelf verder te ontwikkelen kreeg ik een aantal cursussen aanbevolen over de tech stack die door de developers bij INFO wordt gebruikt. Ook kreeg ik toegang tot het Udemy account van het bedrijf. Hierdoor heb ik direct de mogelijkheid om meer te leren over de technologie die hier wordt gebruikt.
+&nbsp;
 
-Als onderdeel van de onboarding heb ik een opdracht gekregen. Dit gaf mij de kans om te laten zien wat ik kan en om mezelf verder te ontwikkelen. Daarnaast heb ik deelgenomen aan een maandelijkse developers workshop/talk meeting waarin we de kans kregen om nieuwe technologieën aan te bevelen en onze kennis te delen.
+Om ervoor te zorgen dat alleen geautoriseerde gebruikers de opmerkingen en het opmerkingenveld kunnen zien, heb ik een 'paywall' toegevoegd. Dit betekent dat de opmerkingen alleen worden opgehaald wanneer de gebruiker zich autoriseert. Hetzelfde geldt voor het plaatsen van een opmerking. Hierdoor wordt voorkomen dat onbevoegde gebruikers toegang hebben tot de comment-functionaliteit, zelfs als ze proberen de code te inspecteren of aan te passen.
 
-Al met al was het een productieve eerste week waarin ik de kans heb gekregen om het bedrijf te leren kennen en mezelf verder te ontwikkelen. Ik kijk uit naar de rest van mijn stageperiode bij INFO en wat ik hier allemaal kan leren.
+&nbsp;
+
+Daarnaast was er een lunch&learn-sessie waar ik online aan heb deelgenomen via Teams. Deze sessies worden af en toe georganiseerd door een collega die tijdens de lunch iets interessants wil delen. Meestal wordt er een presentatie gegeven. We komen allemaal online samen. Dit keer stond het onderwerp 'Chatbots & Virtual Assistants' centraal. Het was een leerzame en interessante sessie waarin ik meer te weten kwam over dit onderwerp.
+
+&nbsp;
+
+Hoewel mijn onboarding bij het Growy-project enigszins werd vertraagd vanwege het ziekteverlof van mijn techbuddy, ben ik enthousiast om binnenkort aan de slag te gaan en mijn bijdrage te leveren aan dit interessante project.

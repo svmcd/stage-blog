@@ -3,6 +3,7 @@ title: "Week 20"
 date: "26 juni t/m 30 juni"
 pubDate: "Jun 30 2023"
 heroImage: "/placeholder-hero.jpg"
+draft: true
 ---
 
 In mijn eerste week van mijn stage bij INFO heb ik kennis gemaakt met mijn stagebegeleider en het team. We hebben samen geluncht en ik heb een rondleiding gekregen door het gebouw. Ook heb ik accounts aangemaakt voor het bedrijf en de benodigde programmas en applicaties gedownload. Tijdens de onboarding kreeg ik dagelijkse standups gepland en werd ik toegevoegd aan de teamkanalen.

@@ -5,10 +5,20 @@ pubDate: "Apr 21 2023"
 heroImage: "/placeholder-hero.jpg"
 ---
 
-In mijn eerste week van mijn stage bij INFO heb ik kennis gemaakt met mijn stagebegeleider en het team. We hebben samen geluncht en ik heb een rondleiding gekregen door het gebouw. Ook heb ik accounts aangemaakt voor het bedrijf en de benodigde programmas en applicaties gedownload. Tijdens de onboarding kreeg ik dagelijkse standups gepland en werd ik toegevoegd aan de teamkanalen.
+Deze week stond in het teken van het afronden van de switching-functionaliteit voor de blokken. Ik heb hard gewerkt om dit te voltooien en heb ook enkele tests geschreven om ervoor te zorgen dat alles naar behoren werkt. Na een pull review is mijn code goedgekeurd en gemerged met de main branch.
 
-Om mezelf verder te ontwikkelen kreeg ik een aantal cursussen aanbevolen over de tech stack die door de developers bij INFO wordt gebruikt. Ook kreeg ik toegang tot het Udemy account van het bedrijf. Hierdoor heb ik direct de mogelijkheid om meer te leren over de technologie die hier wordt gebruikt.
+&nbsp;
 
-Als onderdeel van de onboarding heb ik een opdracht gekregen. Dit gaf mij de kans om te laten zien wat ik kan en om mezelf verder te ontwikkelen. Daarnaast heb ik deelgenomen aan een maandelijkse developers workshop/talk meeting waarin we de kans kregen om nieuwe technologieën aan te bevelen en onze kennis te delen.
+Ik kreeg ook het goede nieuws te horen dat ik binnenkort kan aansluiten bij het Growy-team. In eerste instantie zal ik helpen bij het maken van Cypress-tests, samen met een collega. Growy is een Nederlands bedrijf dat gespecialiseerd is in verticale landbouw en het telen van verse salades, kruiden en microgreens. Ze combineren landbouwkundige expertise met geavanceerde technologie om duurzaam en smaakvol voedsel te produceren zonder het gebruik van pesticiden of meststoffen. Zodra ik meer kennis heb van hun systeem, hoop ik direct betrokken te kunnen zijn bij projecttaken.
 
-Al met al was het een productieve eerste week waarin ik de kans heb gekregen om het bedrijf te leren kennen en mezelf verder te ontwikkelen. Ik kijk uit naar de rest van mijn stageperiode bij INFO en wat ik hier allemaal kan leren.
+&nbsp;
+
+Voor mijn portfolio heb ik al enkele functionaliteiten werkend gekregen. Ik kan nu inloggen en na het inloggen kan ik een nieuw project aanmaken. Dit project wordt vervolgens weergegeven op de projects-pagina. Ik ben erg blij met de voortgang die ik heb geboekt. Daarnaast heb ik ook een mooi design gevonden dat ik wil toepassen op mijn portfolio. Ik heb me ook verdiept in Three.js, omdat ik van plan ben om een achtergrond voor mijn portfolio te maken met behulp van deze bibliotheek.
+
+&nbsp;
+
+Deze week heb ik ook een dag vrij genomen om even te ontspannen en op te laden. Het is belangrijk om af en toe rust te nemen en tijd voor jezelf te nemen tijdens een drukke stageperiode. Ik ben dankbaar dat ik die mogelijkheid had en voel me nu weer energiek en gemotiveerd om verder te gaan met mijn projecten.
+
+&nbsp;
+
+Ik kijk uit naar de komende weken, waarin ik mijn werk aan het STRCTRL-project afrond en mijn focus verleg naar het Growy-team.

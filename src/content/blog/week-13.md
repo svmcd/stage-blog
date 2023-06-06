@@ -5,10 +5,20 @@ pubDate: "May 12 2023"
 heroImage: "/placeholder-hero.jpg"
 ---
 
-In mijn eerste week van mijn stage bij INFO heb ik kennis gemaakt met mijn stagebegeleider en het team. We hebben samen geluncht en ik heb een rondleiding gekregen door het gebouw. Ook heb ik accounts aangemaakt voor het bedrijf en de benodigde programmas en applicaties gedownload. Tijdens de onboarding kreeg ik dagelijkse standups gepland en werd ik toegevoegd aan de teamkanalen.
+Deze week nam ik een dag vrij vanwege een herkansing op school. Daarnaast heb ik gewerkt aan mijn stageblog. Het was belangrijk om de geheime pincode die toegang geeft tot de inhoud van de blog goed te beveiligen. Daarom heb ik ervoor gekozen om deze als een variabele in het .env-bestand te plaatsen. Vervolgens heb ik deze variabele gebruikt in de modale component. Als de invoer van de gebruiker overeenkomt met de geheime pincode, krijgt hij toegang tot de inhoud. De inhoud is afgeschermd met een vervagende laag, dus wanneer de pincode correct is, verdwijnt de vervaging.
 
-Om mezelf verder te ontwikkelen kreeg ik een aantal cursussen aanbevolen over de tech stack die door de developers bij INFO wordt gebruikt. Ook kreeg ik toegang tot het Udemy account van het bedrijf. Hierdoor heb ik direct de mogelijkheid om meer te leren over de technologie die hier wordt gebruikt.
+&nbsp;
 
-Als onderdeel van de onboarding heb ik een opdracht gekregen. Dit gaf mij de kans om te laten zien wat ik kan en om mezelf verder te ontwikkelen. Daarnaast heb ik deelgenomen aan een maandelijkse developers workshop/talk meeting waarin we de kans kregen om nieuwe technologieën aan te bevelen en onze kennis te delen.
+Om ervoor te zorgen dat de website goed beveiligd is, is het belangrijk om tests uit te voeren. Daarom heb ik besloten om Cypress te gebruiken. Ik heb hier al enige ervaring mee en vind het een leuke testtool om mee te werken.
 
-Al met al was het een productieve eerste week waarin ik de kans heb gekregen om het bedrijf te leren kennen en mezelf verder te ontwikkelen. Ik kijk uit naar de rest van mijn stageperiode bij INFO en wat ik hier allemaal kan leren.
+&nbsp;
+
+Daarnaast had ik een Teams-call om kennis te maken met mijn techbuddy en een andere collega die aan het Growy-project werken. Ze hebben kort iets over zichzelf en hun werk verteld, en ze hebben uitgelegd wat mijn rol in het project zou kunnen zijn. Ik kreeg ook mijn eigen Growy-mailaccount waarmee ik toegang heb tot SharePoint en andere relevante documenten. Ik zal worden ingewerkt bij het Plant Manager-team, dat bestaat uit ongeveer 8 ontwikkelaars. Samen met mijn techbuddy zal ik de gebruikte API's testen. Ik ben ook uitgenodigd voor de dagelijkse stand-ups via Outlook.
+
+&nbsp;
+
+Deze week vond ook weer een lunch & learn-sessie plaats. Dit keer ging het over 'Space Exploration', wat ik erg interessant vond.
+
+&nbsp;
+
+Om goed in het Growy-team te kunnen worden ingewerkt, werd ik uitgenodigd op het Growy-kantoor door de Scrum Master van het Plant Manager-team. Ongeveer de helft van de ontwikkelaars in dat team werkt extern bij Growy zelf. Ik heb deelgenomen aan mijn eerste stand-up met het Plant Manager-team en mezelf voorgesteld. Ik kreeg mijn AWS-inloggegevens, maar ik had moeite om in te loggen. Telkens wanneer ik probeerde in te loggen, kreeg ik de melding dat mijn wachtwoord niet veilig genoeg was, dus besloot ik het voor nu maar even te laten rusten. We hebben afgesproken dat ik volgende week naar het Growy-kantoor kom voor een rondleiding en om kennis te maken met de rest van het team.

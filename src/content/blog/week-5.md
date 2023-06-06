@@ -5,10 +5,24 @@ pubDate: "Mar 17 2023"
 heroImage: "/placeholder-hero.jpg"
 ---
 
-In mijn eerste week van mijn stage bij INFO heb ik kennis gemaakt met mijn stagebegeleider en het team. We hebben samen geluncht en ik heb een rondleiding gekregen door het gebouw. Ook heb ik accounts aangemaakt voor het bedrijf en de benodigde programmas en applicaties gedownload. Tijdens de onboarding kreeg ik dagelijkse standups gepland en werd ik toegevoegd aan de teamkanalen.
+Op de eerste dag van de week hadden we een klein probleempje: er was een paar uur lang geen wifi op kantoor. Gelukkig werd dit snel opgelost en konden we weer aan de slag. Ik maakte een nieuwe pull request aan voor de accordion menu component. Echter, er was iets misgegaan waardoor er stond dat ik meer dan 200 bestanden had gewijzigd, terwijl dat niet het geval was. Het bleek dat ik het project verkeerd had geïnstalleerd. Ik heb het project opnieuw geïnstalleerd op de juiste manier en mijn wijzigingen aan de accordion menu component opnieuw toegevoegd.
 
-Om mezelf verder te ontwikkelen kreeg ik een aantal cursussen aanbevolen over de tech stack die door de developers bij INFO wordt gebruikt. Ook kreeg ik toegang tot het Udemy account van het bedrijf. Hierdoor heb ik direct de mogelijkheid om meer te leren over de technologie die hier wordt gebruikt.
+&nbsp;
 
-Als onderdeel van de onboarding heb ik een opdracht gekregen. Dit gaf mij de kans om te laten zien wat ik kan en om mezelf verder te ontwikkelen. Daarnaast heb ik deelgenomen aan een maandelijkse developers workshop/talk meeting waarin we de kans kregen om nieuwe technologieën aan te bevelen en onze kennis te delen.
+Natuurlijk waren de eerste checks op mijn pull request mislukt vanwege een TypeScript-fout. Ik heb dit probleem opgelost en de wijzigingen opnieuw gepusht. Ondertussen maakte ik een nieuwe branch aan voor de login pagina. Voor de login werd gebruik gemaakt van nextAuth en Discord. Er was nog geen aparte login pagina, dus het was mijn taak om deze te bouwen. Gelukkig was er al een wireframe beschikbaar, dus ik hoefde me geen zorgen te maken over het ontwerp.
 
-Al met al was het een productieve eerste week waarin ik de kans heb gekregen om het bedrijf te leren kennen en mezelf verder te ontwikkelen. Ik kijk uit naar de rest van mijn stageperiode bij INFO en wat ik hier allemaal kan leren.
+&nbsp;
+
+Ik kreeg feedback van mijn stagebegeleider op mijn pull request voor de accordion menu component. Hij legde enkele aanpassingen uit die ik meteen heb doorgevoerd. Daarnaast heb ik mijn testvaardigheden weer gebruikt om de accordion menu component te testen. Voor de aparte login pagina had nextAuth al een oplossing. Je kunt eenvoudig aangepaste pagina's definiëren, zodat de gebruiker niet automatisch wordt doorgestuurd naar Discord. De pull request voor de accordion menu component werd uiteindelijk goedgekeurd en samengevoegd met de hoofdbranch.
+
+&nbsp;
+
+Deze week had ik ook de kans om twee pull requests van andere teamleden te beoordelen. Het was een goede ervaring om betrokken te zijn bij het reviewproces en waardevolle feedback te kunnen geven.
+
+&nbsp;
+
+Daarnaast nam ik deel aan de maandelijkse developers workshop/talk meeting. Hier kregen we de kans om nieuwe technologieën aan te bevelen en met elkaar in discussie te gaan.
+
+&nbsp;
+
+Het was een drukke maar productieve week in het STRCTRL project. Ik kijk ernaar uit om volgende week weer nieuwe uitdagingen aan te gaan.

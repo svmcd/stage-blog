@@ -1,12 +1,14 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, Children } from "react";
 import { useStore } from "@nanostores/react";
 import { authorized, isModalOpen } from "../stores";
 
 const BlogContent = ({
+  children,
   title,
   date,
   body,
 }: {
+  children: any;
   title: string;
   date: string;
   body: string;
@@ -34,7 +36,7 @@ const BlogContent = ({
           <div className="absolute inset-0 glass rounded-lg"></div>
         )}
         {isAuthorized === "true" ? (
-          body
+          children
         ) : (
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce augue
