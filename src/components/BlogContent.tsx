@@ -43,12 +43,16 @@ const BlogContent = ({
             ipsum, posuere at quam eu, elementum varius libero. Etiam ac quam
             mauris. Sed consequat mattis condimentum. Aenean bibendum tortor
             nibh, id lobortis sem molestie ut. In et sollicitudin mauris. In
+            <br />
+            <br />
             magna ante, tristique vel porttitor non, pellentesque in lacus.
             Suspendisse et arcu at nisl pellentesque pretium. Vestibulum ante
             ipsum primis in faucibus orci luctus et ultrices posuere cubilia
             curae; Mauris rhoncus nisl nec lacus sodales, eu vestibulum justo
             porta. Etiam laoreet ligula vel ipsum viverra venenatis vitae non
             enim. Donec quis volutpat felis. Donec vel ex diam. Ut fermentum
+            <br />
+            <br />
             volutpat feugiat. Aliquam tristique malesuada tristique. Duis ut
             efficitur nisl, quis viverra erat. Duis vitae ullamcorper elit.
             Integer auctor neque quis lorem mollis, bibendum volutpat elit
@@ -67,6 +71,8 @@ const BlogContent = ({
             faucibus. Phasellus tincidunt justo vulputate, hendrerit orci in,
             imperdiet libero. Mauris at justo lacinia, venenatis dolor et,
             tempus urna. Vestibulum ullamcorper, nulla ut faucibus pellentesque,
+            <br />
+            <br />
             orci erat pretium enim, in lobortis lectus velit ac lacus. Fusce
             consequat massa est, cursus sollicitudin felis pellentesque a. Cras
             malesuada ultrices ante. Vestibulum dapibus et ante et vehicula.
@@ -81,6 +87,8 @@ const BlogContent = ({
             ac facilisis hendrerit. Integer porta rutrum faucibus. Donec vitae
             metus sed quam venenatis bibendum id in diam. Fusce sed venenatis
             ex. Proin sed rhoncus nisl. In hac habitasse platea dictumst. Mauris
+            <br />
+            <br />
             dictum massa sed nunc dictum, non tempus ligula faucibus. Aenean
             congue nunc mauris, vel pharetra quam tincidunt eget. Aenean ac
             tincidunt odio, vel eleifend leo. Curabitur consequat facilisis
