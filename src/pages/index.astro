@@ -6,8 +6,6 @@ const posts = (await getCollection("blog")).sort(
 );
 
 const nonDraftPosts = posts.filter((post) => !post.data.draft);
-
-export const prerender = true;
 ---
 
 <Layout>
