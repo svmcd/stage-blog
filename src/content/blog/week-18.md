@@ -3,13 +3,6 @@ title: "Week 18"
 date: "12 juni t/m 16 juni"
 pubDate: "Jun 9 2023"
 heroImage: "/placeholder-hero.jpg"
-draft: true
 ---
 
-In mijn eerste week van mijn stage bij INFO heb ik kennis gemaakt met mijn stagebegeleider en het team. We hebben samen geluncht en ik heb een rondleiding gekregen door het gebouw. Ook heb ik accounts aangemaakt voor het bedrijf en de benodigde programmas en applicaties gedownload. Tijdens de onboarding kreeg ik dagelijkse standups gepland en werd ik toegevoegd aan de teamkanalen.
-
-Om mezelf verder te ontwikkelen kreeg ik een aantal cursussen aanbevolen over de tech stack die door de developers bij INFO wordt gebruikt. Ook kreeg ik toegang tot het Udemy account van het bedrijf. Hierdoor heb ik direct de mogelijkheid om meer te leren over de technologie die hier wordt gebruikt.
-
-Als onderdeel van de onboarding heb ik een opdracht gekregen. Dit gaf mij de kans om te laten zien wat ik kan en om mezelf verder te ontwikkelen. Daarnaast heb ik deelgenomen aan een maandelijkse developers workshop/talk meeting waarin we de kans kregen om nieuwe technologieën aan te bevelen en onze kennis te delen.
-
-Al met al was het een productieve eerste week waarin ik de kans heb gekregen om het bedrijf te leren kennen en mezelf verder te ontwikkelen. Ik kijk uit naar de rest van mijn stageperiode bij INFO en wat ik hier allemaal kan leren.
+Op de eerste dag van de week heb ik de dagelijkse Plant Manager-standup gemist omdat ik wat later op kantoor arriveerde vanwege een aangepaste dienstregeling voor de bus. Ik heb aan mijn portfolio gewerkt. Tijdens de pauze ben ik naar buiten gegaan voor een wandeling en heb ik ijs gehaald voor op kantoor. Tijdens de wekelijkse stand-up/catch-up heb ik gesproken met mijn stagebegeleiders. We hebben afgesproken om het voortaan elke dinsdag te houden in plaats van maandag, omdat dat beter voor hen uitkomt. Helaas werd ik de rest van de week weer ziek en had ik last van buikgriep.
