@@ -3,6 +3,7 @@ title: "Week 2"
 date: "20 februari t/m 24 februari"
 pubDate: "Feb 24 2023"
 heroImage: "/placeholder-hero.jpg"
+tags: "aa"
 ---
 
 Om mijn kennis van Typescript te vergroten, heb ik een cursus gevolgd. Het gaf me een dieper inzicht in de mogelijkheden en het gebruik van Typescript in webontwikkeling. Ik kon direct de opgedane kennis toepassen in mijn stageproject.

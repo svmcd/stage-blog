@@ -3,6 +3,7 @@ title: "Week 16"
 date: "29 mei t/m 2 juni"
 pubDate: "Jun 2 2023"
 heroImage: "/placeholder-hero.jpg"
+tags: "aa"
 ---
 
 De week begon met een vrije dag op maandag vanwege Pinksteren. Maar op dinsdag waren we weer vol energie terug op kantoor. We begonnen de dag met de stand-up meeting van het Plant Manager-team, waarin we onze plannen en voortgang bespraken. Het was een geweldige start van de dag, waarin we elkaar op de hoogte brachten van onze werkzaamheden.

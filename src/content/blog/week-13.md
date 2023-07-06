@@ -3,6 +3,7 @@ title: "Week 13"
 date: "8 mei t/m 12 mei"
 pubDate: "May 12 2023"
 heroImage: "/placeholder-hero.jpg"
+tags: "aa"
 ---
 
 Deze week nam ik een dag vrij vanwege een herkansing op school. Daarnaast heb ik gewerkt aan mijn stageblog. Het was belangrijk om de geheime pincode die toegang geeft tot de inhoud van de blog goed te beveiligen. Daarom heb ik ervoor gekozen om deze als een variabele in het .env-bestand te plaatsen. Vervolgens heb ik deze variabele gebruikt in de modale component. Als de invoer van de gebruiker overeenkomt met de geheime pincode, krijgt hij toegang tot de inhoud. De inhoud is afgeschermd met een vervagende laag, dus wanneer de pincode correct is, verdwijnt de vervaging.

@@ -3,6 +3,7 @@ title: "Week 10"
 date: "17 april t/m 21 april"
 pubDate: "Apr 21 2023"
 heroImage: "/placeholder-hero.jpg"
+tags: "aa"
 ---
 
 Deze week stond in het teken van het afronden van de switching-functionaliteit voor de blokken. Ik heb hard gewerkt om dit te voltooien en heb ook enkele tests geschreven om ervoor te zorgen dat alles naar behoren werkt. Na een pull review is mijn code goedgekeurd en gemerged met de main branch.

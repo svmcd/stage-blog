@@ -3,6 +3,7 @@ title: "Week 21"
 date: "3 juli t/m 7 juli"
 pubDate: "Jul 7 2023"
 heroImage: "/placeholder-hero.jpg"
+tags: "aa"
 draft: true
 ---
 

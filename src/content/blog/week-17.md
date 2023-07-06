@@ -3,6 +3,7 @@ title: "Week 17"
 date: "5 juni t/m 9 juni"
 pubDate: "Jun 9 2023"
 heroImage: "/placeholder-hero.jpg"
+tags: "aa"
 ---
 
 Deze week begon ik met de dagelijkse Growy Plant Manager-standup. Iedereen vertelde waar ze aan zouden werken. Na de stand-up sprak ik met de collega die me zou helpen met het probleem dat ik heb bij het opstarten van Cypress. Hij kon echter geen oplossing vinden omdat hij zelf nog nooit met Cypress had gewerkt. Hij verwees me naar een andere collega. Vervolgens had ik de wekelijkse stand-up met mijn twee stagebegeleiders om bij te praten.

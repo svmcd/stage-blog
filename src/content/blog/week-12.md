@@ -3,6 +3,7 @@ title: "Week 12"
 date: "1 mei t/m 5 mei"
 pubDate: "May 5 2023"
 heroImage: "/placeholder-hero.jpg"
+tags: "aa"
 ---
 
 Deze week stond voornamelijk in het teken van mijn stageblog. Ik had ervoor gezorgd dat bezoekers nu op mijn stageblog kunnen reageren door middel van het plaatsen van opmerkingen. Als eerste heb ik het autorisatiesysteem geoptimaliseerd. Vervolgens heb ik een comment-component gemaakt en vormgegeven. Voor de database heb ik gekozen voor MongoDB, omdat ik daar al ervaring mee heb dankzij enkele cursussen en er bekend mee ben. Ik heb Prisma geïnstalleerd en een comment-model aangemaakt. Na veel experimenteren met de code is het me gelukt om de comment-functionaliteit werkend te krijgen. Ik heb ook een component gemaakt dat de opmerkingen uit de database haalt en deze in de frontend weergeeft.

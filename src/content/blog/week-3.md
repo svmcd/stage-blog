@@ -3,6 +3,7 @@ title: "Week 3"
 date: "27 februari t/m 3 maart"
 pubDate: "Mar 04 2023"
 heroImage: "/placeholder-hero.jpg"
+tags: "aa"
 ---
 
 Na het afronden van de Typescript en React Query cursussen, ben ik begonnen aan een cursus over unit testing. Het schrijven van tests was een nieuwe uitdaging voor mij, maar ik was vastbesloten om het onder de knie te krijgen. Ik begon met het schrijven van tests voor de onboarding opdracht. In het begin stuitte ik op veel fouten en problemen. Gelukkig kreeg ik hulp van mijn collega's, die me uitlegden dat ik een fetch-functie moest mocken en dat ik de test moest renderen binnen een QueryClientProvider. Het was een proces van vallen en opstaan, maar uiteindelijk slaagde ik erin om succesvolle unit tests te schrijven. Het was een waardevolle les in trial-and-error en het belang van samenwerken met het team.

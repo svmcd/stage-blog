@@ -3,6 +3,7 @@ title: "Week 6"
 date: "20 maart t/m 24 maart"
 pubDate: "Mar 24 2023"
 heroImage: "/placeholder-hero.jpg"
+tags: "aa"
 ---
 
 Ik begon de week met het werken aan de custom login pagina. In eerste instantie had ik moeite om te bepalen in welke map de custom signin file moest staan volgens de nextAuth documentatie. In een monorepo zoals dit project was, was de bestandsstructuur een beetje onbekend voor me. Na verschillende pogingen is het me uiteindelijk gelukt om de juiste locatie te vinden. Ik maakte een eerste pull request aan voor de login pagina.

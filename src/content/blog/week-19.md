@@ -3,13 +3,19 @@ title: "Week 19"
 date: "19 juni t/m 23 juni"
 pubDate: "Jun 23 2023"
 heroImage: "/placeholder-hero.jpg"
-draft: true
+tags: "aa"
 ---
 
-In mijn eerste week van mijn stage bij INFO heb ik kennis gemaakt met mijn stagebegeleider en het team. We hebben samen geluncht en ik heb een rondleiding gekregen door het gebouw. Ook heb ik accounts aangemaakt voor het bedrijf en de benodigde programmas en applicaties gedownload. Tijdens de onboarding kreeg ik dagelijkse standups gepland en werd ik toegevoegd aan de teamkanalen.
+Op maandag kwam ik aan op kantoor, maar de deur was op slot en er was niemand aanwezig. Ik heb even gewacht, maar er kwam niemand. Hierdoor heb ik ook de stand-up gemist. Ik ben toen naar een nabijgelegen bibliotheek gegaan om daar verder te werken.
 
-Om mezelf verder te ontwikkelen kreeg ik een aantal cursussen aanbevolen over de tech stack die door de developers bij INFO wordt gebruikt. Ook kreeg ik toegang tot het Udemy account van het bedrijf. Hierdoor heb ik direct de mogelijkheid om meer te leren over de technologie die hier wordt gebruikt.
+&nbsp;
 
-Als onderdeel van de onboarding heb ik een opdracht gekregen. Dit gaf mij de kans om te laten zien wat ik kan en om mezelf verder te ontwikkelen. Daarnaast heb ik deelgenomen aan een maandelijkse developers workshop/talk meeting waarin we de kans kregen om nieuwe technologieën aan te bevelen en onze kennis te delen.
+Ik heb de functie die ik had geschreven om een record in een database bij te werken naar een nieuwe branch in de Automation Tests GitHub repository gepusht. Ook heb ik de blog van vorige week online gezet op mijn stageblog website.
 
-Al met al was het een productieve eerste week waarin ik de kans heb gekregen om het bedrijf te leren kennen en mezelf verder te ontwikkelen. Ik kijk uit naar de rest van mijn stageperiode bij INFO en wat ik hier allemaal kan leren.
+&nbsp;
+
+Verder ben ik deze week naar de Growy farm gegaan om te helpen. Het was van 08:30 tot 11:00 uur. Samen met een groepje van ongeveer 6 mensen hebben we de planten die in de verticale boerderij groeien geoogst en in bakjes geplaatst, zodat ze naar restaurants kunnen worden gestuurd. Ik vond het een leuke ervaring.
+
+&nbsp;
+
+Daarnaast hebben we nog een gesprek gehad met mijn stagebegeleider en stagedocent op het Lifely-kantoor om de stand van zaken te bespreken, feedback te geven en te praten over de volgende stageperiode.

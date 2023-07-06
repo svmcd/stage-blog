@@ -3,6 +3,7 @@ title: "Week 4"
 date: "6 maart t/m 10 maart"
 pubDate: "Mar 10 2023"
 heroImage: "/placeholder-hero.jpg"
+tags: "aa"
 ---
 
 Deze week ben ik officieel begonnen aan het STRCTRL project, en ik kan niet wachten om mijn ervaringen met jullie te delen. Het was een spannende week vol nieuwe uitdagingen en kansen.

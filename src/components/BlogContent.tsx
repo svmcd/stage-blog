@@ -6,12 +6,10 @@ const BlogContent = ({
   children,
   title,
   date,
-  body,
 }: {
   children: any;
   title: string;
   date: string;
-  body: string;
 }) => {
   const $isModalOpen = useStore(isModalOpen);
   const $authorized = useStore(authorized);

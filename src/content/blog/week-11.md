@@ -3,6 +3,7 @@ title: "Week 11"
 date: " april t/m 28 april"
 pubDate: "Apr 28 2023"
 heroImage: "/placeholder-hero.jpg"
+tags: "aa"
 ---
 
 Deze week stond in het teken van het verder werken aan mijn blog website en portfolio. Wanneer ik problemen of vragen had, heeft mijn stagebegeleider mij geholpen en ondersteund. Na veel experimenteren ben ik erin geslaagd om een mooie interactieve achtergrond te creëren voor mijn portfolio met behulp van Three.js. Ik heb ook geprobeerd om een aangepaste muiscursor te maken, wat gedeeltelijk gelukt is. Ik zal hier later mee verdergaan om het te verbeteren.

@@ -3,6 +3,7 @@ title: "Week 5"
 date: "13 maart t/m 17 maart"
 pubDate: "Mar 17 2023"
 heroImage: "/placeholder-hero.jpg"
+tags: "aa"
 ---
 
 Op de eerste dag van de week hadden we een klein probleempje: er was een paar uur lang geen wifi op kantoor. Gelukkig werd dit snel opgelost en konden we weer aan de slag. Ik maakte een nieuwe pull request aan voor de accordion menu component. Echter, er was iets misgegaan waardoor er stond dat ik meer dan 200 bestanden had gewijzigd, terwijl dat niet het geval was. Het bleek dat ik het project verkeerd had geïnstalleerd. Ik heb het project opnieuw geïnstalleerd op de juiste manier en mijn wijzigingen aan de accordion menu component opnieuw toegevoegd.

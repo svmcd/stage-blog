@@ -3,6 +3,7 @@ title: "Week 9"
 date: "10 april t/m 14 april"
 pubDate: "Apr 14 2023"
 heroImage: "/placeholder-hero.jpg"
+tags: "aa"
 ---
 
 Tijdens een van onze dagelijkse stand-ups vertelde mijn stagebegeleider dat hij al aan het verkennen was welk project ik binnenkort kan gaan onboarden. Aangezien de deadline van het project waaraan ik momenteel werk volgende week nadert, zal dit hoogstwaarschijnlijk mijn laatste taak voor dit project zijn. Ik heb me volledig gericht op het voltooien van de functionaliteit om blokken te wisselen. Het was een uitdagende taak, maar met doorzettingsvermogen en de ondersteuning van mijn team kon ik het tot een succesvol einde brengen.

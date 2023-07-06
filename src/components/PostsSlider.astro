@@ -3,13 +3,15 @@ import { getCollection } from "astro:content";
 const posts = (await getCollection("blog")).sort(
   (b, a) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
 );
+
+const nonDraftPosts = posts.filter((post) => !post.data.draft);
 ---
 
 <section
   class="flex flex-row overflow-scroll gap-4 items-start w-screen ignore-width p-0"
 >
   {
-    posts.map((post) => (
+    nonDraftPosts.map((post) => (
       <a href={`/blog/${post.slug}/`}>
         <div class="box h-44 w-80 flex flex-col justify-between">
           <div>

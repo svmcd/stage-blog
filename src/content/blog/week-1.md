@@ -3,6 +3,7 @@ title: "Week 1"
 date: "13 februari t/m 17 februari"
 pubDate: "Feb 17 2023"
 heroImage: "/placeholder-hero.jpg"
+tags: "aa"
 ---
 
 Op maandag startte mijn onboardingproces. Ik had een kennismakingsgesprek met mijn stagebegeleider, waarin we elkaar beter leerden kennen en bespraken wat mijn verwachtingen waren voor deze stageperiode. Het was een geweldige gelegenheid om mijn doelen te delen en te horen wat het bedrijf van mij verwachtte.

@@ -3,6 +3,7 @@ title: "Week 8"
 date: "3 april t/m 7 april"
 pubDate: "Apr 7 2023"
 heroImage: "/placeholder-hero.jpg"
+tags: "aa"
 ---
 
 Deze week kreeg ik een nieuwe taak toegewezen in het STRCTRL project. Mijn doel was om de blokken op een specifieke pagina te kunnen wisselen van positie door middel van pijltjes. Deze blokken worden uit de database gehaald, waarin ook de indexen zijn opgeslagen. Dit betekende dat ik een verbinding moest maken met de database om de gewenste functionaliteit te implementeren.

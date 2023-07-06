@@ -3,6 +3,7 @@ title: "Week 15"
 date: "22 mei t/m 26 mei"
 pubDate: "May 26 2023"
 heroImage: "/placeholder-hero.jpg"
+tags: "aa"
 ---
 
 Om de week goed te beginnen, had ik een inspirerende stand-up meeting met het Growy Plant Manager-team. Samen bespraken we de voortgang en de volgende stappen van ons project. Het was geweldig om te zien hoe iedereen enthousiast samenwerkte en ideeën uitwisselde.

@@ -3,6 +3,7 @@ title: "Week 14"
 date: "15 mei t/m 19 mei"
 pubDate: "May 19 2023"
 heroImage: "/placeholder-hero.jpg"
+tags: "aa"
 ---
 
 Deze week begon ik mijn dag bij Growy. De scrum master en ik kwamen ongeveer tegelijkertijd aan, dus liepen we samen naar binnen. Het blijkt dat ze 2 locaties hebben; de ene is waar de ontwikkelaars zitten en de andere is de 'farm', waar de planten worden geteeld. Op de bovenverdieping van de 'farm' is een soort café-achtige ruimte waar de lunches plaatsvinden, maar je kunt er ook gewoon werken. Het was bijna tijd voor de dagelijkse stand-up van het Plant Manager-team, dus ik deed samen met de scrum master daaraan mee.
