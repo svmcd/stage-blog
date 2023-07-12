@@ -1,0 +1,70 @@
+---
+import { CollectionEntry, getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import CommentBox from "../../components/CommentBox";
+import PostsSlider from "../../components/PostsSlider.astro";
+import BlogContent from "../../components/BlogContent";
+import CommentsWrapper from "../../components/CommentsWrapper";
+import { getCommentsForPost } from "../../../src/pages/api/get-comments";
+
+export const prerender = true;
+---
+
+<Layout>
+  <section class="flex flex-col gap-10">
+    <div class="flex flex-col gap-10 max-w-4xl">
+      <BlogContent
+        client:load
+        title="Reflectie op deze stage"
+        date="7 juli 2023"
+      >
+        <p>
+          Tijdens mijn stage heb ik enorm veel geleerd en veel nieuwe ervaringen
+          opgedaan. Het was een compleet andere omgeving dan op school, waar ik
+          samenwerkte met professionals die al jarenlang actief zijn in dit
+          vakgebied. Dit zorgde voor een steile leercurve, waarin ik snel nieuwe
+          kennis en vaardigheden opdeed.
+          <br />
+          <br />
+
+          Een van de belangrijkste aspecten die ik tijdens mijn stage heb
+          geleerd, is hoe het eraan toegaat op de werkvloer. Ik kreeg een kijkje
+          in de dagelijkse gang van zaken bij een groot bedrijf met ongeveer 90
+          werknemers van verschillende nationaliteiten. Engels was de voertaal,
+          wat mijn communicatieve vaardigheden in het Engels heeft verbeterd.
+          <br />
+          <br />
+          Ik heb tijdens mijn stage veel interessante mensen ontmoet en waardevolle
+          inzichten gekregen over hoe zij hun carrières hebben vormgegeven. Daarnaast
+          heb ik nieuwe tools en technologieën leren gebruiken die ik op school nog
+          niet eerder had gebruikt of zelfs van had gehoord. Dit heeft mijn technische
+          vaardigheden verrijkt en mij geholpen om deze tools in de praktijk toe
+          te passen.
+          <br />
+          <br />
+          Een belangrijk onderdeel van mijn stage was het leren werken volgens de
+          Agile-methodologie. Ik kreeg de kans om deel uit te maken van een groot
+          team en te ervaren hoe efficiënt samenwerken in zo'n omgeving werkt. Daarnaast
+          heb ik geleerd om code reviews uit te voeren, wat mij inzicht heeft gegeven
+          in de kwaliteit en verbeterpunten van code.
+          <br />
+          <br />
+          Het was interessant om te werken aan grote projecten binnen het bedrijf.
+          Hierdoor kon ik echter niet altijd een grote bijdrage leveren, omdat de
+          taken vaak boven mijn niveau waren. Voor mijn volgende stage zou ik graag
+          bij een kleiner bedrijf willen werken, waar ik een grotere rol kan spelen
+          in projecten en meer verantwoordelijkheden kan dragen.
+          <br />
+          <br />
+          Al met al ben ik zeer tevreden met mijn stage-ervaring. Ik heb veel geleerd,
+          zowel op professioneel als persoonlijk vlak. Ik heb ontdekt dat dit vakgebied
+          goed bij mij past en ik ben enthousiast om mijn kennis verder te ontwikkelen.
+          Voor de volgende stage periode blijft er de wens om bij een kleiner bedrijf
+          te werken, waar ik mijn skills verder kan uitbreiden en nog meer hands-on
+          ervaring kan opdoen.
+        </p>
+      </BlogContent>
+    </div>
+    <PostsSlider />
+  </section>
+</Layout>

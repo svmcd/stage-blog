@@ -4,13 +4,22 @@ date: "3 juli t/m 7 juli"
 pubDate: "Jul 7 2023"
 heroImage: "/placeholder-hero.jpg"
 tags: "aa"
-draft: true
 ---
 
-In mijn eerste week van mijn stage bij INFO heb ik kennis gemaakt met mijn stagebegeleider en het team. We hebben samen geluncht en ik heb een rondleiding gekregen door het gebouw. Ook heb ik accounts aangemaakt voor het bedrijf en de benodigde programmas en applicaties gedownload. Tijdens de onboarding kreeg ik dagelijkse standups gepland en werd ik toegevoegd aan de teamkanalen.
+<div class="flex gap-2 pb-2">
+    <span class="cta2">B1-K2-W1</span>
+</div>
 
-Om mezelf verder te ontwikkelen kreeg ik een aantal cursussen aanbevolen over de tech stack die door de developers bij INFO wordt gebruikt. Ook kreeg ik toegang tot het Udemy account van het bedrijf. Hierdoor heb ik direct de mogelijkheid om meer te leren over de technologie die hier wordt gebruikt.
+Op maandag had ik vrij genomen.
 
-Als onderdeel van de onboarding heb ik een opdracht gekregen. Dit gaf mij de kans om te laten zien wat ik kan en om mezelf verder te ontwikkelen. Daarnaast heb ik deelgenomen aan een maandelijkse developers workshop/talk meeting waarin we de kans kregen om nieuwe technologieën aan te bevelen en onze kennis te delen.
+&nbsp;
 
-Al met al was het een productieve eerste week waarin ik de kans heb gekregen om het bedrijf te leren kennen en mezelf verder te ontwikkelen. Ik kijk uit naar de rest van mijn stageperiode bij INFO en wat ik hier allemaal kan leren.
+Op dinsdag had ik de dagelijkse stand-up meeting met het Plant Manager team en daarna de wekelijkse stand-up/catch-up met mijn stagebegeleiders. We hebben besproken dat we op donderdag met z'n drieën naar het kantoor zouden komen om afscheid te nemen en mijn BPV-beoordelingsformulier in te vullen.
+
+&nbsp;
+
+Deze week heb ik mijn stageblog afgerond en de nieuwe blogs op mijn stageblog online gezet. Ook ben ik begonnen met het zoeken naar stageplekken voor de tweede stageperiode.
+
+&nbsp;
+
+Tijdens de pauze ben ik samen met collega's naar de Albert Heijn gegaan om lunch te halen, en vervolgens hebben we op kantoor samen geluncht. Ik had baklava's gekocht als bedankje voor mijn laatste week op kantoor. Aan het einde van de dag hebben we samen het BPV-beoordelingsformulier ingevuld en afscheid genomen. Ik kreeg ook een leuk cadeautje van het team.

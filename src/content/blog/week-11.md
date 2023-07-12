@@ -6,6 +6,11 @@ heroImage: "/placeholder-hero.jpg"
 tags: "aa"
 ---
 
+<div class="flex gap-2 pb-2">
+    <span class="cta2">B1-K1-W1</span>
+    <span class="cta2">B1-K1-W2</span>
+</div>
+
 Deze week stond in het teken van het verder werken aan mijn blog website en portfolio. Wanneer ik problemen of vragen had, heeft mijn stagebegeleider mij geholpen en ondersteund. Na veel experimenteren ben ik erin geslaagd om een mooie interactieve achtergrond te creëren voor mijn portfolio met behulp van Three.js. Ik heb ook geprobeerd om een aangepaste muiscursor te maken, wat gedeeltelijk gelukt is. Ik zal hier later mee verdergaan om het te verbeteren.
 
 &nbsp;

@@ -6,4 +6,9 @@ heroImage: "/placeholder-hero.jpg"
 tags: "aa"
 ---
 
+<div class="flex gap-2 pb-2">
+    <span class="cta2">B1-K1-W3</span>
+    <span class="cta2">B1-K2-W1</span>
+</div>
+
 Op de eerste dag van de week heb ik de dagelijkse Plant Manager-standup gemist omdat ik wat later op kantoor arriveerde vanwege een aangepaste dienstregeling voor de bus. Ik heb aan mijn portfolio gewerkt. Tijdens de pauze ben ik naar buiten gegaan voor een wandeling en heb ik ijs gehaald voor op kantoor. Tijdens de wekelijkse stand-up/catch-up heb ik gesproken met mijn stagebegeleiders. We hebben afgesproken om het voortaan elke dinsdag te houden in plaats van maandag, omdat dat beter voor hen uitkomt. Helaas werd ik de rest van de week weer ziek en had ik last van buikgriep.

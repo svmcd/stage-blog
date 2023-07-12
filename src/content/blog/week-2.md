@@ -6,6 +6,13 @@ heroImage: "/placeholder-hero.jpg"
 tags: "aa"
 ---
 
+<div class="flex gap-2 pb-2">
+    <span class="cta2">B1-K1-W1</span>
+    <span class="cta2">B1-K1-W2</span>
+    <span class="cta2">B1-K1-W3</span>
+    <span class="cta2">B-H2</span>
+</div>
+
 Om mijn kennis van Typescript te vergroten, heb ik een cursus gevolgd. Het gaf me een dieper inzicht in de mogelijkheden en het gebruik van Typescript in webontwikkeling. Ik kon direct de opgedane kennis toepassen in mijn stageproject.
 
 &nbsp;

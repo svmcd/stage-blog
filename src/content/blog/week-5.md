@@ -6,6 +6,14 @@ heroImage: "/placeholder-hero.jpg"
 tags: "aa"
 ---
 
+<div class="flex gap-2 pb-2">
+    <span class="cta2">B1-K1-W3</span>
+    <span class="cta2">B1-K1-W4</span>
+    <span class="cta2">B1-K1-W5</span>
+    <span class="cta2">B1-K2-W1</span>
+    <span class="cta2">B-H4</span>
+</div>
+
 Op de eerste dag van de week hadden we een klein probleempje: er was een paar uur lang geen wifi op kantoor. Gelukkig werd dit snel opgelost en konden we weer aan de slag. Ik maakte een nieuwe pull request aan voor de accordion menu component. Echter, er was iets misgegaan waardoor er stond dat ik meer dan 200 bestanden had gewijzigd, terwijl dat niet het geval was. Het bleek dat ik het project verkeerd had geïnstalleerd. Ik heb het project opnieuw geïnstalleerd op de juiste manier en mijn wijzigingen aan de accordion menu component opnieuw toegevoegd.
 
 &nbsp;

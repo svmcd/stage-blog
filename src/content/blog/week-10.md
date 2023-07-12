@@ -6,6 +6,12 @@ heroImage: "/placeholder-hero.jpg"
 tags: "aa"
 ---
 
+<div class="flex gap-2 pb-2">
+    <span class="cta2">B1-K1-W3</span>
+    <span class="cta2">B1-K1-W4</span>
+    <span class="cta2">B-H6</span>
+</div>
+
 Deze week stond in het teken van het afronden van de switching-functionaliteit voor de blokken. Ik heb hard gewerkt om dit te voltooien en heb ook enkele tests geschreven om ervoor te zorgen dat alles naar behoren werkt. Na een pull review is mijn code goedgekeurd en gemerged met de main branch.
 
 &nbsp;

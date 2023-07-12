@@ -6,6 +6,13 @@ heroImage: "/placeholder-hero.jpg"
 tags: "aa"
 ---
 
+<div class="flex gap-2 pb-2">
+    <span class="cta2">B1-K1-W3</span>
+    <span class="cta2">B1-K2-W2</span>
+    <span class="cta2">B1-K2-W3</span>
+    <span class="cta2">B-H6</span>
+</div>
+
 Op maandag kwam ik aan op kantoor, maar de deur was op slot en er was niemand aanwezig. Ik heb even gewacht, maar er kwam niemand. Hierdoor heb ik ook de stand-up gemist. Ik ben toen naar een nabijgelegen bibliotheek gegaan om daar verder te werken.
 
 &nbsp;

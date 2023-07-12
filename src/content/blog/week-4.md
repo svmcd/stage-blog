@@ -6,7 +6,14 @@ heroImage: "/placeholder-hero.jpg"
 tags: "aa"
 ---
 
-Deze week ben ik officieel begonnen aan het STRCTRL project, en ik kan niet wachten om mijn ervaringen met jullie te delen. Het was een spannende week vol nieuwe uitdagingen en kansen.
+<div class="flex gap-2 pb-2">
+    <span class="cta2">B1-K1-W3</span>
+    <span class="cta2">B1-K1-W5</span>
+    <span class="cta2">B1-K2-W1</span>
+    <span class="cta2">B-H5</span>
+</div>
+
+Deze week ben ik officieel begonnen aan het STRCTRL project
 
 &nbsp;
 

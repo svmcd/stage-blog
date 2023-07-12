@@ -6,6 +6,13 @@ heroImage: "/placeholder-hero.jpg"
 tags: "aa"
 ---
 
+<div class="flex gap-2 pb-2">
+    <span class="cta2">B1-K1-W3</span>
+    <span class="cta2">B1-K1-W4</span>
+    <span class="cta2">B-H2</span>
+    <span class="cta2">B-H6</span>
+</div>
+
 Deze week nam ik een dag vrij vanwege een herkansing op school. Daarnaast heb ik gewerkt aan mijn stageblog. Het was belangrijk om de geheime pincode die toegang geeft tot de inhoud van de blog goed te beveiligen. Daarom heb ik ervoor gekozen om deze als een variabele in het .env-bestand te plaatsen. Vervolgens heb ik deze variabele gebruikt in de modale component. Als de invoer van de gebruiker overeenkomt met de geheime pincode, krijgt hij toegang tot de inhoud. De inhoud is afgeschermd met een vervagende laag, dus wanneer de pincode correct is, verdwijnt de vervaging.
 
 &nbsp;

@@ -6,6 +6,11 @@ heroImage: "/placeholder-hero.jpg"
 tags: "aa"
 ---
 
+<div class="flex gap-2 pb-2">
+    <span class="cta2">B1-K1-W3</span>
+    <span class="cta2">B-H2</span>
+</div>
+
 Ik begon de week met het werken aan de custom login pagina. In eerste instantie had ik moeite om te bepalen in welke map de custom signin file moest staan volgens de nextAuth documentatie. In een monorepo zoals dit project was, was de bestandsstructuur een beetje onbekend voor me. Na verschillende pogingen is het me uiteindelijk gelukt om de juiste locatie te vinden. Ik maakte een eerste pull request aan voor de login pagina.
 
 &nbsp;

@@ -6,6 +6,14 @@ heroImage: "/placeholder-hero.jpg"
 tags: "aa"
 ---
 
+<div class="flex gap-2 pb-2">
+    <span class="cta2">B1-K1-W1</span>
+    <span class="cta2">B1-K1-W2</span>
+    <span class="cta2">B1-K2-W1</span>
+    <span class="cta2">B-H2</span>
+    <span class="cta2">B-H6</span>
+</div>
+
 Om de week goed te beginnen, had ik een inspirerende stand-up meeting met het Growy Plant Manager-team. Samen bespraken we de voortgang en de volgende stappen van ons project. Het was geweldig om te zien hoe iedereen enthousiast samenwerkte en ideeën uitwisselde.
 
 &nbsp;

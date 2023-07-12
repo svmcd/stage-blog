@@ -6,6 +6,11 @@ heroImage: "/placeholder-hero.jpg"
 tags: "aa"
 ---
 
+<div class="flex gap-2 pb-2">
+    <span class="cta2">B1-K1-W1</span>
+    <span class="cta2">B1-K1-W3</span>
+</div>
+
 Ik begon de week met het onderzoeken van de beste aanpak voor het beveiligen van de pagina's. In eerste instantie overwoog ik om voor elke pagina gebruik te maken van de getServerSideProps-functie om te controleren of de gebruiker was ingelogd. Na verloop van tijd besefte ik echter dat ik veel code aan het herhalen was en dat er waarschijnlijk een efficiëntere manier was. Ik las over een middleware-bestand waarin je een functie kon schrijven en een lijst kon bijhouden van pagina's die geen authenticatie vereisen. Dit bleek veel efficiënter te zijn en resulteerde in veel minder code. Lokaal werkte alles naar behoren en mijn pull request voor de beveiligde pagina's werd goedgekeurd en samengevoegd met de hoofdbranch. De hoofdbranch wordt automatisch gedeployed op Vercel.
 
 &nbsp;

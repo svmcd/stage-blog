@@ -6,6 +6,10 @@ heroImage: "/placeholder-hero.jpg"
 tags: "aa"
 ---
 
+<div class="flex gap-2 pb-2">
+    <span class="cta2">B1-K2-W1</span>
+</div>
+
 Deze week begon ik met de dagelijkse Growy Plant Manager-standup. Iedereen vertelde waar ze aan zouden werken. Na de stand-up sprak ik met de collega die me zou helpen met het probleem dat ik heb bij het opstarten van Cypress. Hij kon echter geen oplossing vinden omdat hij zelf nog nooit met Cypress had gewerkt. Hij verwees me naar een andere collega. Vervolgens had ik de wekelijkse stand-up met mijn twee stagebegeleiders om bij te praten.
 
 &nbsp;

@@ -6,6 +6,11 @@ heroImage: "/placeholder-hero.jpg"
 tags: "aa"
 ---
 
+<div class="flex gap-2 pb-2">
+    <span class="cta2">B1-K1-W3</span>
+    <span class="cta2">B1-K2-W3</span>
+</div>
+
 Deze week heb ik 2 dagen vrij genomen vanwege feestdagen.
 
 &nbsp;

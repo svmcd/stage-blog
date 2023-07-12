@@ -1,4 +1,4 @@
-import { useState, useEffect, Children } from "react";
+import { useState, useEffect } from "react";
 import { useStore } from "@nanostores/react";
 import { authorized, isModalOpen } from "../stores";
 

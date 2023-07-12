@@ -6,6 +6,13 @@ heroImage: "/placeholder-hero.jpg"
 tags: "aa"
 ---
 
+<div class="flex gap-2 pb-2">
+    <span class="cta2">B1-K1-W1</span>
+    <span class="cta2">B1-K1-W2</span>
+    <span class="cta2">B1-K2-W1</span>
+    <span class="cta2">B-H6</span>
+</div>
+
 Tijdens een van onze dagelijkse stand-ups vertelde mijn stagebegeleider dat hij al aan het verkennen was welk project ik binnenkort kan gaan onboarden. Aangezien de deadline van het project waaraan ik momenteel werk volgende week nadert, zal dit hoogstwaarschijnlijk mijn laatste taak voor dit project zijn. Ik heb me volledig gericht op het voltooien van de functionaliteit om blokken te wisselen. Het was een uitdagende taak, maar met doorzettingsvermogen en de ondersteuning van mijn team kon ik het tot een succesvol einde brengen.
 
 &nbsp;

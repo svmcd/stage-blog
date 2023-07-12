@@ -6,6 +6,11 @@ heroImage: "/placeholder-hero.jpg"
 tags: "aa"
 ---
 
+<div class="flex gap-2 pb-2">
+    <span class="cta2">B1-K1-W3</span>
+    <span class="cta2">B1-K2-W1</span>
+</div>
+
 De week begon met een vrije dag op maandag vanwege Pinksteren. Maar op dinsdag waren we weer vol energie terug op kantoor. We begonnen de dag met de stand-up meeting van het Plant Manager-team, waarin we onze plannen en voortgang bespraken. Het was een geweldige start van de dag, waarin we elkaar op de hoogte brachten van onze werkzaamheden.
 
 &nbsp;

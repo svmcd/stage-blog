@@ -6,6 +6,11 @@ heroImage: "/placeholder-hero.jpg"
 tags: "aa"
 ---
 
+<div class="flex gap-2 pb-2">
+    <span class="cta2">B1-K1-W4</span>
+    <span class="cta2">B1-K2-W2</span>
+</div>
+
 Na het afronden van de Typescript en React Query cursussen, ben ik begonnen aan een cursus over unit testing. Het schrijven van tests was een nieuwe uitdaging voor mij, maar ik was vastbesloten om het onder de knie te krijgen. Ik begon met het schrijven van tests voor de onboarding opdracht. In het begin stuitte ik op veel fouten en problemen. Gelukkig kreeg ik hulp van mijn collega's, die me uitlegden dat ik een fetch-functie moest mocken en dat ik de test moest renderen binnen een QueryClientProvider. Het was een proces van vallen en opstaan, maar uiteindelijk slaagde ik erin om succesvolle unit tests te schrijven. Het was een waardevolle les in trial-and-error en het belang van samenwerken met het team.
 
 &nbsp;
